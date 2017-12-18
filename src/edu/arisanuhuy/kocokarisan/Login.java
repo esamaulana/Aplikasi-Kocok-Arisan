@@ -53,7 +53,7 @@ public class Login extends javax.swing.JFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/lock.png"))); // NOI18N
         mainFrame.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 360, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/username.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/home.png"))); // NOI18N
         mainFrame.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 310, -1, -1));
 
         jLabel2.setBackground(new java.awt.Color(38, 56, 89));
