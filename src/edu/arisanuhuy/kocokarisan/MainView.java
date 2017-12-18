@@ -32,34 +32,34 @@ public class MainView extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
+        mainFrame = new javax.swing.JPanel();
+        Logos = new javax.swing.JLabel();
+        loginSebagai = new javax.swing.JLabel();
+        loginAnggotaButton = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
-        jPanel3 = new javax.swing.JPanel();
+        loginAdminButton = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        backgroundWall = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(743, 507));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        mainFrame.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/logo.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 60, -1, -1));
+        Logos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/logo.png"))); // NOI18N
+        mainFrame.add(Logos, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 60, -1, -1));
 
-        jLabel2.setFont(new java.awt.Font("Nexa Light", 0, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Login Sebagai");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 310, 160, 30));
+        loginSebagai.setFont(new java.awt.Font("Nexa Light", 0, 24)); // NOI18N
+        loginSebagai.setForeground(new java.awt.Color(255, 255, 255));
+        loginSebagai.setText("Login Sebagai");
+        mainFrame.add(loginSebagai, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 310, 160, 30));
 
-        jPanel2.setBackground(new java.awt.Color(244, 173, 71));
-        jPanel2.addMouseListener(new java.awt.event.MouseAdapter() {
+        loginAnggotaButton.setBackground(new java.awt.Color(244, 173, 71));
+        loginAnggotaButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel2MouseClicked(evt);
+                loginAnggotaButtonMouseClicked(evt);
             }
         });
 
@@ -67,29 +67,29 @@ public class MainView extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(38, 56, 89));
         jLabel4.setText("Anggota");
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        javax.swing.GroupLayout loginAnggotaButtonLayout = new javax.swing.GroupLayout(loginAnggotaButton);
+        loginAnggotaButton.setLayout(loginAnggotaButtonLayout);
+        loginAnggotaButtonLayout.setHorizontalGroup(
+            loginAnggotaButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(loginAnggotaButtonLayout.createSequentialGroup()
                 .addGap(38, 38, 38)
                 .addComponent(jLabel4)
                 .addContainerGap(42, Short.MAX_VALUE))
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        loginAnggotaButtonLayout.setVerticalGroup(
+            loginAnggotaButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(loginAnggotaButtonLayout.createSequentialGroup()
                 .addGap(23, 23, 23)
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(27, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 370, 170, 80));
+        mainFrame.add(loginAnggotaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 370, 170, 80));
 
-        jPanel3.setBackground(new java.awt.Color(244, 173, 71));
-        jPanel3.addMouseListener(new java.awt.event.MouseAdapter() {
+        loginAdminButton.setBackground(new java.awt.Color(244, 173, 71));
+        loginAdminButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel3MouseClicked(evt);
+                loginAdminButtonMouseClicked(evt);
             }
         });
 
@@ -102,42 +102,42 @@ public class MainView extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+        javax.swing.GroupLayout loginAdminButtonLayout = new javax.swing.GroupLayout(loginAdminButton);
+        loginAdminButton.setLayout(loginAdminButtonLayout);
+        loginAdminButtonLayout.setHorizontalGroup(
+            loginAdminButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, loginAdminButtonLayout.createSequentialGroup()
                 .addContainerGap(47, Short.MAX_VALUE)
                 .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(43, 43, 43))
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
+        loginAdminButtonLayout.setVerticalGroup(
+            loginAdminButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(loginAdminButtonLayout.createSequentialGroup()
                 .addGap(25, 25, 25)
                 .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(25, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, 170, 80));
+        mainFrame.add(loginAdminButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, 170, 80));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/background.png"))); // NOI18N
-        jLabel1.setToolTipText("");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 500));
+        backgroundWall.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/background.png"))); // NOI18N
+        backgroundWall.setToolTipText("");
+        mainFrame.add(backgroundWall, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 500));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 740, 500));
+        getContentPane().add(mainFrame, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 740, 500));
 
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jPanel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel2MouseClicked
+    private void loginAnggotaButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginAnggotaButtonMouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jPanel2MouseClicked
+    }//GEN-LAST:event_loginAnggotaButtonMouseClicked
 
-    private void jPanel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseClicked
+    private void loginAdminButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginAdminButtonMouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jPanel3MouseClicked
+    }//GEN-LAST:event_loginAdminButtonMouseClicked
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
         // TODO add your handling code here:
@@ -173,13 +173,13 @@ public class MainView extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel Logos;
+    private javax.swing.JLabel backgroundWall;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel loginAdminButton;
+    private javax.swing.JPanel loginAnggotaButton;
+    private javax.swing.JLabel loginSebagai;
+    private javax.swing.JPanel mainFrame;
     // End of variables declaration//GEN-END:variables
 }
