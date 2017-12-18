@@ -33,6 +33,8 @@ public class Login extends javax.swing.JFrame {
     private void initComponents() {
 
         mainFrame = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         loginPanel = new javax.swing.JPanel();
         loginLabel = new javax.swing.JLabel();
@@ -47,6 +49,12 @@ public class Login extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         mainFrame.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/lock.png"))); // NOI18N
+        mainFrame.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 360, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/username.png"))); // NOI18N
+        mainFrame.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 310, -1, -1));
 
         jLabel2.setBackground(new java.awt.Color(38, 56, 89));
         jLabel2.setForeground(new java.awt.Color(244, 173, 71));
@@ -181,7 +189,9 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JCheckBox checkRememberMe;
     private javax.swing.JTextField inputPassword;
     private javax.swing.JTextField inputUsername;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel loginLabel;
     private javax.swing.JPanel loginPanel;
     private javax.swing.JPanel mainFrame;
