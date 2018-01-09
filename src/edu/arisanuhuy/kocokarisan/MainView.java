@@ -133,10 +133,18 @@ public class MainView extends javax.swing.JFrame {
 
     private void loginAnggotaButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginAnggotaButtonMouseClicked
         // TODO add your handling code here:
+        Login nLogin = new Login();
+        nLogin.setVisible(true);
+        dispose();
+        
     }//GEN-LAST:event_loginAnggotaButtonMouseClicked
 
     private void loginAdminButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginAdminButtonMouseClicked
         // TODO add your handling code here:
+        Login nLogin = new Login();
+        nLogin.setVisible(true);
+        dispose();
+        
     }//GEN-LAST:event_loginAdminButtonMouseClicked
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked

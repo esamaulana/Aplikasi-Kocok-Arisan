@@ -12,12 +12,12 @@ import javax.swing.JOptionPane;
  *
  * @author faldi
  */
-public class daftarAnggota extends javax.swing.JFrame {
+public class ArisanBerjalan extends javax.swing.JFrame {
 
     /**
      * Creates new form MainView
      */
-    public daftarAnggota() {
+    public ArisanBerjalan() {
         initComponents();
         
         setExtendedState(JFrame.WIDTH);
@@ -34,16 +34,12 @@ public class daftarAnggota extends javax.swing.JFrame {
     private void initComponents() {
 
         mainFrame = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         backgroundWall = new javax.swing.JLabel();
@@ -54,53 +50,45 @@ public class daftarAnggota extends javax.swing.JFrame {
 
         mainFrame.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/plus bold.png"))); // NOI18N
-        mainFrame.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 210, -1, -1));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/edit.png"))); // NOI18N
-        mainFrame.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 380, -1, -1));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/minus bold.png"))); // NOI18N
-        mainFrame.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 290, -1, -1));
-
-        jLabel4.setBackground(new java.awt.Color(244, 173, 71));
-        jLabel4.setFont(new java.awt.Font("Nexa Bold", 0, 25)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(244, 173, 71));
-        jLabel4.setText("      Edit Anggota");
-        mainFrame.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 220, 60));
-
-        jLabel5.setBackground(new java.awt.Color(244, 173, 71));
-        jLabel5.setFont(new java.awt.Font("Nexa Bold", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(244, 173, 71));
-        jLabel5.setText("Mengikuti Arisan Sebanyak:");
-        mainFrame.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, -1, 20));
-
-        jLabel6.setBackground(new java.awt.Color(244, 173, 71));
-        jLabel6.setFont(new java.awt.Font("Nexa Bold", 0, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(244, 173, 71));
-        jLabel6.setText("Nama Anggota:");
-        mainFrame.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, -1, 20));
-
-        jButton2.setText("Mulai Arisan");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+        jLabel7.setIcon(new javax.swing.ImageIcon("E:\\DATA QQ\\Document\\Kuliah\\Semester 3\\OOP\\Tugas Individu\\src\\gambar\\icon log out.png")); // NOI18N
+        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel7MouseClicked(evt);
             }
         });
-        mainFrame.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, -1, -1));
+        mainFrame.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 120, -1, -1));
 
-        jButton1.setText("Setting Grup");
-        mainFrame.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 150, -1, -1));
+        jLabel2.setBackground(new java.awt.Color(244, 173, 71));
+        jLabel2.setFont(new java.awt.Font("Nexa Bold", 1, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(244, 173, 71));
+        jLabel2.setText("Nama Group");
+        mainFrame.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 180, 60));
 
-        jTextField1.setForeground(new java.awt.Color(244, 173, 71));
-        jTextField1.setText("angka");
-        mainFrame.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 110, 90, -1));
+        jLabel3.setBackground(new java.awt.Color(244, 173, 71));
+        jLabel3.setFont(new java.awt.Font("Nexa Light", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(244, 173, 71));
+        jLabel3.setText("Jumlah Anggota");
+        mainFrame.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 80, 300, 60));
 
-        jTextField2.setForeground(new java.awt.Color(244, 173, 71));
-        jTextField2.setText("nama");
-        mainFrame.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 80, 90, -1));
+        jLabel4.setBackground(new java.awt.Color(244, 173, 71));
+        jLabel4.setFont(new java.awt.Font("Nexa Light", 1, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(244, 173, 71));
+        jLabel4.setText("Storan tiap pertemuan");
+        mainFrame.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 300, 60));
 
-        jScrollPane1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(244, 173, 71)));
+        jLabel5.setBackground(new java.awt.Color(244, 173, 71));
+        jLabel5.setFont(new java.awt.Font("Nexa Light", 1, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(244, 173, 71));
+        jLabel5.setText("Jadwal Pertemuan");
+        mainFrame.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 10, 300, 60));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/plus bold.png"))); // NOI18N
+        jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel6MouseClicked(evt);
+            }
+        });
+        mainFrame.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 410, -1, -1));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -115,13 +103,11 @@ public class daftarAnggota extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        mainFrame.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(2, 200, 510, 300));
+        mainFrame.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 160, 740, 340));
 
         backgroundWall.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/background.png"))); // NOI18N
-        backgroundWall.setText("adwdawa");
         backgroundWall.setToolTipText("");
         mainFrame.add(backgroundWall, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 500));
-        backgroundWall.getAccessibleContext().setAccessibleName("");
 
         getContentPane().add(mainFrame, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 740, 500));
 
@@ -129,22 +115,41 @@ public class daftarAnggota extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
         // TODO add your handling code here:
-        int dialogbtn = JOptionPane.YES_NO_OPTION;
-        int dialogresult = JOptionPane.showConfirmDialog(this, "Mulai Arisan Ini?", "Konfirmasi", dialogbtn);
+         int dialogbtn = JOptionPane.YES_NO_OPTION;
+        int dialogresult = JOptionPane.showConfirmDialog(this, "Yakin Kocok?", "Konfirmasi", dialogbtn);
         
         
         if (dialogresult == 0){
-            Login login = new Login();
-            login.setVisible(true);
+            KocokArisan nKocokArisan = new KocokArisan();
+        nKocokArisan.setVisible(true);
             
                     }
         else
         {
         
         }
-    }//GEN-LAST:event_jButton2ActionPerformed
+        
+    }//GEN-LAST:event_jLabel6MouseClicked
+
+    private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
+        // TODO add your handling code here:
+        int dialogbtn = JOptionPane.YES_NO_OPTION;
+        int dialogresult = JOptionPane.showConfirmDialog(this, "Yakin Keluar?", "Konfirmasi", dialogbtn);
+        
+        
+        if (dialogresult == 0){
+            Login nLogin = new Login();
+            nLogin.setVisible(true);
+            dispose();
+            
+                    }
+        else
+        {
+        
+        }
+    }//GEN-LAST:event_jLabel7MouseClicked
 
     /**
      * @param args the command line arguments
@@ -163,14 +168,8 @@ public class daftarAnggota extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(daftarAnggota.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ArisanBerjalan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         
@@ -178,24 +177,20 @@ public class daftarAnggota extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(() -> {
-            new daftarAnggota().setVisible(true);
+            new ArisanBerjalan().setVisible(true);
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel backgroundWall;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
     private javax.swing.JPanel mainFrame;
     // End of variables declaration//GEN-END:variables
 }

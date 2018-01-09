@@ -131,7 +131,7 @@ public class Login extends javax.swing.JFrame {
         mainFrame.add(backgroundWall, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 500));
         backgroundWall.getAccessibleContext().setAccessibleName("");
 
-        getContentPane().add(mainFrame, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 740, 500));
+        getContentPane().add(mainFrame, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 740, 500));
 
         pack();
         setLocationRelativeTo(null);
@@ -150,7 +150,7 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_loginLabelMouseClicked
 
     private void loginPanelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginPanelMouseClicked
-        // TODO add your handling code here:
+            // TODO add your handling code here:
     }//GEN-LAST:event_loginPanelMouseClicked
 
     /**

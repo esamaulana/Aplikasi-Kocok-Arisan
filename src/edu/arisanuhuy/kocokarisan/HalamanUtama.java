@@ -54,6 +54,11 @@ public class HalamanUtama extends javax.swing.JFrame {
         mainFrame.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 220, 60));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/edit.png"))); // NOI18N
+        jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel3MouseClicked(evt);
+            }
+        });
         mainFrame.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 260, -1, -1));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -75,6 +80,11 @@ public class HalamanUtama extends javax.swing.JFrame {
         mainFrame.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 180, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/plus bold.png"))); // NOI18N
+        jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel2MouseClicked(evt);
+            }
+        });
         mainFrame.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 100, -1, -1));
 
         backgroundWall.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/background.png"))); // NOI18N
@@ -88,6 +98,21 @@ public class HalamanUtama extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
+        // TODO add your handling code here:
+        TambahGrupArisan nTambahGrupArisan = new TambahGrupArisan();
+        nTambahGrupArisan.setVisible(true);
+
+        
+    }//GEN-LAST:event_jLabel2MouseClicked
+
+    private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
+        // TODO add your handling code here:
+        daftarAnggota ndaftarAnggota = new daftarAnggota();
+        ndaftarAnggota.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jLabel3MouseClicked
 
     /**
      * @param args the command line arguments
