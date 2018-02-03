@@ -81,7 +81,7 @@
             <Component class="javax.swing.JLabel" name="jLabel16">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\menu.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/MENU.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -93,7 +93,7 @@
             <Component class="javax.swing.JLabel" name="jLabel17">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\multiple-users-silhouette (2).png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/KELOMPOK.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -105,7 +105,7 @@
             <Component class="javax.swing.JLabel" name="jLabel18">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\information-button.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/ABOUT.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -204,7 +204,7 @@
             <Component class="javax.swing.JLabel" name="jLabel14">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\user (2).png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/ADMIN.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel14"/>
               </Properties>
@@ -217,7 +217,7 @@
             <Component class="javax.swing.JLabel" name="jLabel19">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\settings-gears (2).png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/SETTING.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -359,7 +359,7 @@
             <Component class="javax.swing.JLabel" name="jLabel7">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\error.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/CLOSE.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel6"/>
               </Properties>
@@ -372,7 +372,7 @@
             <Component class="javax.swing.JLabel" name="jLabel9">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\minimize-tab.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel6"/>
               </Properties>
@@ -590,7 +590,7 @@
             <Component class="javax.swing.JLabel" name="jLabel13">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\error.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/CLOSE.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel6"/>
               </Properties>
@@ -616,7 +616,7 @@
             <Component class="javax.swing.JLabel" name="jLabel21">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\minimize-tab.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel6"/>
               </Properties>
@@ -660,7 +660,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace pref="205" max="32767" attributes="0"/>
+                      <EmptySpace pref="182" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -730,7 +730,7 @@
                           <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
                           <Component id="jPanel12" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="82" max="32767" attributes="0"/>
+                      <EmptySpace pref="80" max="32767" attributes="0"/>
                   </Group>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
@@ -972,14 +972,14 @@
             <Component class="javax.swing.JLabel" name="jLabel40">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\error.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/CLOSE.png"/>
                 </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel41">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\minimize-tab.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -1179,14 +1179,14 @@
             <Component class="javax.swing.JLabel" name="jLabel42">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\minimize-tab.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"/>
                 </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel43">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\error.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/CLOSE.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -1439,14 +1439,14 @@
             <Component class="javax.swing.JLabel" name="jLabel47">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\minimize-tab.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"/>
                 </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel48">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\error.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/CLOSE.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -1614,7 +1614,7 @@
                   <Color blue="c0" green="f5" red="ec" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\HLDN\Downloads\man-going-fast-and-with-force-against-a-door.png"/>
+                  <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/MULAI.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="MULAI"/>
               </Properties>

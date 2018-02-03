@@ -131,13 +131,13 @@ public class menuPanel extends javax.swing.JPanel {
         jLabel15.setText("admin");
         menuPanel.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 430, 80, 30));
 
-        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\menu.png")); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MENU.png"))); // NOI18N
         menuPanel.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 10, 30, 40));
 
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\multiple-users-silhouette (2).png")); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/KELOMPOK.png"))); // NOI18N
         menuPanel.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 30, 30));
 
-        jLabel18.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\information-button.png")); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/ABOUT.png"))); // NOI18N
         menuPanel.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 140, 30, 40));
 
         jLabel23.setBackground(new java.awt.Color(239, 162, 92));
@@ -166,11 +166,11 @@ public class menuPanel extends javax.swing.JPanel {
         jSeparator7.setForeground(new java.awt.Color(239, 162, 92));
         menuPanel.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, 130, 10));
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\user (2).png")); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/ADMIN.png"))); // NOI18N
         jLabel14.setText("jLabel14");
         menuPanel.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, 30, 30));
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\settings-gears (2).png")); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/SETTING.png"))); // NOI18N
         menuPanel.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 30, 40));
 
         jLabel32.setBackground(new java.awt.Color(239, 162, 92));
@@ -212,11 +212,11 @@ public class menuPanel extends javax.swing.JPanel {
         jSeparator8.setForeground(new java.awt.Color(236, 245, 192));
         panelUtama.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 300, 490, 20));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
         jLabel7.setText("jLabel6");
         panelUtama.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 20, 20));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\minimize-tab.png")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
         jLabel9.setText("jLabel6");
         panelUtama.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 20, 20));
 
@@ -317,7 +317,7 @@ public class menuPanel extends javax.swing.JPanel {
 
         kelompokPanel.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 340, 90, 30));
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
         jLabel13.setText("jLabel6");
         kelompokPanel.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 20, 20));
 
@@ -325,7 +325,7 @@ public class menuPanel extends javax.swing.JPanel {
         jLabel20.setText("jLabel6");
         kelompokPanel.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 20, 20));
 
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\minimize-tab.png")); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
         jLabel21.setText("jLabel6");
         kelompokPanel.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 20, 20));
 
@@ -447,16 +447,16 @@ public class menuPanel extends javax.swing.JPanel {
         jLabel33.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
         jLabel33.setText("jLabel6");
 
-        jLabel40.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
+        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
 
-        jLabel41.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\minimize-tab.png")); // NOI18N
+        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
 
         javax.swing.GroupLayout settingPanelLayout = new javax.swing.GroupLayout(settingPanel);
         settingPanel.setLayout(settingPanelLayout);
         settingPanelLayout.setHorizontalGroup(
             settingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(settingPanelLayout.createSequentialGroup()
-                .addContainerGap(205, Short.MAX_VALUE)
+                .addContainerGap(182, Short.MAX_VALUE)
                 .addGroup(settingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, settingPanelLayout.createSequentialGroup()
                         .addGroup(settingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -513,7 +513,7 @@ public class menuPanel extends javax.swing.JPanel {
                     .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(82, Short.MAX_VALUE))
+                .addContainerGap(80, Short.MAX_VALUE))
             .addGroup(settingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(settingPanelLayout.createSequentialGroup()
                     .addGap(0, 0, Short.MAX_VALUE)
@@ -590,9 +590,9 @@ public class menuPanel extends javax.swing.JPanel {
             .addComponent(jLabel39, javax.swing.GroupLayout.DEFAULT_SIZE, 27, Short.MAX_VALUE)
         );
 
-        jLabel42.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\minimize-tab.png")); // NOI18N
+        jLabel42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
 
-        jLabel43.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
+        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
 
         javax.swing.GroupLayout aboutPanelFixLayout = new javax.swing.GroupLayout(aboutPanelFix);
         aboutPanelFix.setLayout(aboutPanelFixLayout);
@@ -705,9 +705,9 @@ public class menuPanel extends javax.swing.JPanel {
             .addComponent(jLabel46, javax.swing.GroupLayout.DEFAULT_SIZE, 27, Short.MAX_VALUE)
         );
 
-        jLabel47.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\minimize-tab.png")); // NOI18N
+        jLabel47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
 
-        jLabel48.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
+        jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
 
         labelSetting3.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
         labelSetting3.setForeground(new java.awt.Color(239, 162, 92));
@@ -772,7 +772,7 @@ public class menuPanel extends javax.swing.JPanel {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 11)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(236, 245, 192));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\man-going-fast-and-with-force-against-a-door.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MULAI.png"))); // NOI18N
         jLabel1.setText("MULAI");
 
         javax.swing.GroupLayout tambahAnggotaPanelLayout = new javax.swing.GroupLayout(tambahAnggotaPanel);
