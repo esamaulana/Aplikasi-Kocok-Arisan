@@ -147,6 +147,11 @@ public class loginFrame extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(133, 136, 107));
         jLabel5.setText("Belum mendaftar? daftar disini");
+        jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel5MouseClicked(evt);
+            }
+        });
         panelLogin.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 350, 144, 22));
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/user-shape.png"))); // NOI18N
@@ -300,12 +305,16 @@ public class loginFrame extends javax.swing.JFrame {
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
         // TODO add your handling code here:
-        menuPanel n = new menuPanel();
+        menuFrame n  = new menuFrame();
         n.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jLabel4MouseClicked
 
     private void jPanel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseClicked
         // TODO add your handling code here:
+        menuFrame n  = new menuFrame();
+        n.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jPanel3MouseClicked
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
@@ -319,6 +328,13 @@ public class loginFrame extends javax.swing.JFrame {
     private void jPanel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel4MouseClicked
         // TODO add your handling code here:
     }//GEN-LAST:event_jPanel4MouseClicked
+
+    private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
+        // TODO add your handling code here:
+        registerFrame n = new registerFrame();
+        n.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jLabel5MouseClicked
 
     /**
      * @param args the command line arguments

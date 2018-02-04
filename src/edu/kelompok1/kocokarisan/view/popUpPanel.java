@@ -9,12 +9,12 @@ package edu.kelompok1.kocokarisan.view;
  *
  * @author HLDN
  */
-public class popupPanel extends javax.swing.JPanel {
+public class popUpPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form popupPanel
      */
-    public popupPanel() {
+    public popUpPanel() {
         initComponents();
     }
 
