@@ -5,7 +5,7 @@
  */
 package edu.kelompok1.kocokarisan.view;
 
-import ClassSlider.sSlide;
+import ClassAnimation.sSlide;
 /**
  *
  * @author HLDN
