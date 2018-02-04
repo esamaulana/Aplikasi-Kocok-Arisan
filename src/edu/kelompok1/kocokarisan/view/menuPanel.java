@@ -78,9 +78,8 @@ public class menuPanel extends javax.swing.JPanel {
         jLabel35 = new javax.swing.JLabel();
         jPanel12 = new javax.swing.JPanel();
         jLabel36 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel40 = new javax.swing.JLabel();
-        jLabel41 = new javax.swing.JLabel();
+        labelCloseSetting = new javax.swing.JLabel();
+        labelMiniizeSetting = new javax.swing.JLabel();
         aboutPanelFix = new javax.swing.JPanel();
         labelSetting1 = new javax.swing.JLabel();
         jPanel13 = new javax.swing.JPanel();
@@ -99,8 +98,8 @@ public class menuPanel extends javax.swing.JPanel {
         jLabel45 = new javax.swing.JLabel();
         jPanel18 = new javax.swing.JPanel();
         jLabel46 = new javax.swing.JLabel();
-        jLabel47 = new javax.swing.JLabel();
-        jLabel48 = new javax.swing.JLabel();
+        labelMinimizeTambah = new javax.swing.JLabel();
+        labelCloseTambah = new javax.swing.JLabel();
         labelSetting3 = new javax.swing.JLabel();
         labelSetting4 = new javax.swing.JLabel();
         labelSetting5 = new javax.swing.JLabel();
@@ -444,12 +443,9 @@ public class menuPanel extends javax.swing.JPanel {
             .addComponent(jLabel36, javax.swing.GroupLayout.DEFAULT_SIZE, 27, Short.MAX_VALUE)
         );
 
-        jLabel33.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
-        jLabel33.setText("jLabel6");
+        labelCloseSetting.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
 
-        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
-
-        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
+        labelMiniizeSetting.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
 
         javax.swing.GroupLayout settingPanelLayout = new javax.swing.GroupLayout(settingPanel);
         settingPanel.setLayout(settingPanelLayout);
@@ -477,23 +473,18 @@ public class menuPanel extends javax.swing.JPanel {
                                     .addComponent(jPasswordField3, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(135, 135, 135))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, settingPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel41)
+                        .addComponent(labelMiniizeSetting)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel40)
+                        .addComponent(labelCloseSetting)
                         .addContainerGap())))
-            .addGroup(settingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(settingPanelLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel33)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
         settingPanelLayout.setVerticalGroup(
             settingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(settingPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(settingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel40)
-                    .addComponent(jLabel41))
+                    .addComponent(labelCloseSetting)
+                    .addComponent(labelMiniizeSetting))
                 .addGap(33, 33, 33)
                 .addComponent(labelSetting)
                 .addGap(30, 30, 30)
@@ -514,11 +505,6 @@ public class menuPanel extends javax.swing.JPanel {
                     .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(80, Short.MAX_VALUE))
-            .addGroup(settingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(settingPanelLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel33)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         mainPanel.add(settingPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, 0, 790, 470));
@@ -705,9 +691,9 @@ public class menuPanel extends javax.swing.JPanel {
             .addComponent(jLabel46, javax.swing.GroupLayout.DEFAULT_SIZE, 27, Short.MAX_VALUE)
         );
 
-        jLabel47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
+        labelMinimizeTambah.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
 
-        jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
+        labelCloseTambah.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
 
         labelSetting3.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
         labelSetting3.setForeground(new java.awt.Color(239, 162, 92));
@@ -785,9 +771,9 @@ public class menuPanel extends javax.swing.JPanel {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tambahAnggotaPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(tambahAnggotaPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tambahAnggotaPanelLayout.createSequentialGroup()
-                                .addComponent(jLabel47)
+                                .addComponent(labelMinimizeTambah)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel48)
+                                .addComponent(labelCloseTambah)
                                 .addContainerGap())
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tambahAnggotaPanelLayout.createSequentialGroup()
                                 .addComponent(labelSetting2, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -829,8 +815,8 @@ public class menuPanel extends javax.swing.JPanel {
             .addGroup(tambahAnggotaPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(tambahAnggotaPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel47)
-                    .addComponent(jLabel48))
+                    .addComponent(labelMinimizeTambah)
+                    .addComponent(labelCloseTambah))
                 .addGap(33, 33, 33)
                 .addComponent(labelSetting2)
                 .addGap(39, 39, 39)
@@ -902,22 +888,17 @@ public class menuPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
-    private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
     private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
-    private javax.swing.JLabel jLabel47;
-    private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
@@ -951,6 +932,10 @@ public class menuPanel extends javax.swing.JPanel {
     private javax.swing.JTextField jTextField5;
     private javax.swing.JPanel kelompokPanel;
     private javax.swing.JLabel labelAngka;
+    private javax.swing.JLabel labelCloseSetting;
+    private javax.swing.JLabel labelCloseTambah;
+    private javax.swing.JLabel labelMiniizeSetting;
+    private javax.swing.JLabel labelMinimizeTambah;
     private javax.swing.JLabel labelSetting;
     private javax.swing.JLabel labelSetting1;
     private javax.swing.JLabel labelSetting2;

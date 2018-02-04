@@ -46,6 +46,8 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        setResizable(false);
 
         popupPanelutamaTambah.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -243,6 +245,7 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jPanel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel4MouseClicked

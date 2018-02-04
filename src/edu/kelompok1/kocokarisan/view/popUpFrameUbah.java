@@ -46,6 +46,8 @@ public class popUpFrameUbah extends javax.swing.JFrame {
         jLabel19 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        setResizable(false);
 
         popupPanelutamaUbah.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -238,6 +240,7 @@ public class popUpFrameUbah extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jPanel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel8MouseClicked

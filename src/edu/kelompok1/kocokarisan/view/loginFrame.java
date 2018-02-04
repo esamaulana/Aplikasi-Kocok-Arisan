@@ -61,6 +61,8 @@ public class loginFrame extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        setResizable(false);
 
         jPanel1.setPreferredSize(new java.awt.Dimension(767, 468));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -71,8 +73,9 @@ public class loginFrame extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(239, 162, 92));
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\logo.png")); // NOI18N
         jLabel1.setText("LOGO");
-        panelLogin.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 90, 73, 61));
+        panelLogin.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 70, 100, 100));
 
         jLabel2.setBackground(new java.awt.Color(239, 162, 92));
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -297,6 +300,7 @@ public class loginFrame extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed

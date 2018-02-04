@@ -65,9 +65,8 @@ public class menuFrame extends javax.swing.JFrame {
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
         jSeparator8 = new javax.swing.JSeparator();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        labelMinimizeUtama = new javax.swing.JLabel();
+        labelCloseUtama = new javax.swing.JLabel();
         kelompokPanel = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -133,6 +132,8 @@ public class menuFrame extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        setResizable(false);
 
         panelMain.setBackground(new java.awt.Color(255, 255, 255));
         panelMain.setPreferredSize(new java.awt.Dimension(767, 468));
@@ -257,6 +258,7 @@ public class menuFrame extends javax.swing.JFrame {
 
         panelMain.add(menuPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(-180, 0, -1, -1));
 
+        mainPanel.setPreferredSize(new java.awt.Dimension(767, 468));
         mainPanel.setLayout(new java.awt.CardLayout());
 
         panelUtama.setBackground(new java.awt.Color(25, 16, 9));
@@ -268,47 +270,43 @@ public class menuFrame extends javax.swing.JFrame {
         labelAngka.setFont(new java.awt.Font("Segoe UI Semibold", 0, 120)); // NOI18N
         labelAngka.setForeground(new java.awt.Color(236, 245, 192));
         labelAngka.setText("2");
-        panelUtama.add(labelAngka, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 150, 172, -1));
+        panelUtama.add(labelAngka, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 150, 172, -1));
 
         jLabel27.setBackground(new java.awt.Color(239, 162, 92));
         jLabel27.setFont(new java.awt.Font("Segoe UI Semibold", 0, 48)); // NOI18N
         jLabel27.setForeground(new java.awt.Color(239, 162, 92));
         jLabel27.setText("Kelompo Arisan");
-        panelUtama.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, 361, 73));
+        panelUtama.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 170, 361, 73));
 
         jLabel28.setBackground(new java.awt.Color(239, 162, 92));
         jLabel28.setFont(new java.awt.Font("Segoe UI Semibold", 0, 48)); // NOI18N
         jLabel28.setForeground(new java.awt.Color(239, 162, 92));
         jLabel28.setText("saat ini ada");
-        panelUtama.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 230, 276, 54));
+        panelUtama.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 230, 276, 54));
 
         jSeparator8.setBackground(new java.awt.Color(236, 245, 192));
         jSeparator8.setForeground(new java.awt.Color(236, 245, 192));
-        panelUtama.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 300, 490, 20));
+        panelUtama.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 300, 490, 20));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
-        jLabel7.setText("jLabel6");
-        panelUtama.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 20, 20));
+        labelMinimizeUtama.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
+        labelMinimizeUtama.setText("jLabel6");
+        panelUtama.add(labelMinimizeUtama, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 10, 20, 20));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
-        jLabel9.setText("jLabel6");
-        panelUtama.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 20, 20));
-
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\minimize-tab.png")); // NOI18N
-        jLabel8.setText("jLabel6");
-        panelUtama.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 20, 20));
+        labelCloseUtama.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
+        labelCloseUtama.setText("jLabel6");
+        panelUtama.add(labelCloseUtama, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 10, 20, 20));
 
         mainPanel.add(panelUtama, "card2");
 
         kelompokPanel.setBackground(new java.awt.Color(25, 16, 9));
         kelompokPanel.setMinimumSize(new java.awt.Dimension(767, 468));
-        kelompokPanel.setPreferredSize(new java.awt.Dimension(710, 470));
+        kelompokPanel.setPreferredSize(new java.awt.Dimension(710, 468));
         kelompokPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel26.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
         jLabel26.setForeground(new java.awt.Color(239, 162, 92));
         jLabel26.setText("Kelompok Arisan");
-        kelompokPanel.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 50, 268, 40));
+        kelompokPanel.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, 268, 40));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -323,7 +321,7 @@ public class menuFrame extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        kelompokPanel.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 140, 540, 163));
+        kelompokPanel.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 150, 540, 163));
 
         jPanel7.setBackground(new java.awt.Color(236, 245, 192));
 
@@ -345,7 +343,7 @@ public class menuFrame extends javax.swing.JFrame {
             .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
         );
 
-        kelompokPanel.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 340, 90, 30));
+        kelompokPanel.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 350, 90, 30));
 
         jPanel8.setBackground(new java.awt.Color(239, 162, 92));
         jPanel8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -372,7 +370,7 @@ public class menuFrame extends javax.swing.JFrame {
             .addComponent(jLabel30, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
         );
 
-        kelompokPanel.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 340, 90, 30));
+        kelompokPanel.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 350, 90, 30));
 
         jPanel9.setBackground(new java.awt.Color(239, 162, 92));
         jPanel9.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -399,7 +397,7 @@ public class menuFrame extends javax.swing.JFrame {
             .addComponent(jLabel31, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
         );
 
-        kelompokPanel.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 340, 90, 30));
+        kelompokPanel.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 350, 90, 30));
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
         jLabel13.setText("jLabel6");
@@ -968,6 +966,7 @@ public class menuFrame extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
@@ -1135,9 +1134,6 @@ public class menuFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabelAbout;
     private javax.swing.JLabel jLabelHome;
     private javax.swing.JLabel jLabelKelArs;
@@ -1173,6 +1169,8 @@ public class menuFrame extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField5;
     private javax.swing.JPanel kelompokPanel;
     private javax.swing.JLabel labelAngka;
+    private javax.swing.JLabel labelCloseUtama;
+    private javax.swing.JLabel labelMinimizeUtama;
     private javax.swing.JLabel labelSetting;
     private javax.swing.JLabel labelSetting1;
     private javax.swing.JLabel labelSetting2;
