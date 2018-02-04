@@ -59,7 +59,7 @@ public class loginFrame extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\logo.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/logo.png"))); // NOI18N
         jLabel1.setText("LOGO");
         panelLogin.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 70, 100, 100));
 
