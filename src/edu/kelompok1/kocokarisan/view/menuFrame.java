@@ -21,10 +21,10 @@ public class menuFrame extends javax.swing.JFrame {
         slide = new sSlide();
     }
     public void PanelKeKiri(){
-        slide.jPanelXKiri(0, -180, 10, 5, menuPanel);
+        slide.jPanelXKiri(0, -180, 7, 5, menuPanel);
     }
     public void PanelKeKanan(){
-        slide.jPanelXKanan(-180, 0, 10, 5, menuPanel);
+        slide.jPanelXKanan(-180, 0, 7, 5, menuPanel);
     }
     
     
@@ -43,8 +43,8 @@ public class menuFrame extends javax.swing.JFrame {
         jLabelAbout = new javax.swing.JLabel();
         jLabelSett = new javax.swing.JLabel();
         jLabelKelArs = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
+        buttonLogOut = new javax.swing.JLabel();
+        labelAdmin = new javax.swing.JLabel();
         buttonMenu = new javax.swing.JLabel();
         buttonKelompok = new javax.swing.JLabel();
         buttonAbout = new javax.swing.JLabel();
@@ -59,6 +59,7 @@ public class menuFrame extends javax.swing.JFrame {
         jSeparator9 = new javax.swing.JSeparator();
         jLabel49 = new javax.swing.JLabel();
         jSeparator10 = new javax.swing.JSeparator();
+        buttonHome1 = new javax.swing.JLabel();
         mainPanel = new javax.swing.JPanel();
         panelUtama = new javax.swing.JPanel();
         labelAngka = new javax.swing.JLabel();
@@ -141,6 +142,11 @@ public class menuFrame extends javax.swing.JFrame {
 
         menuPanel.setBackground(new java.awt.Color(236, 245, 192));
         menuPanel.setPreferredSize(new java.awt.Dimension(240, 468));
+        menuPanel.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                menuPanelMouseExited(evt);
+            }
+        });
         menuPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabelHome.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -175,14 +181,19 @@ public class menuFrame extends javax.swing.JFrame {
         });
         menuPanel.add(jLabelKelArs, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 240, 50));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/HOME.png"))); // NOI18N
-        menuPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, -1, -1));
+        buttonLogOut.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/logout.png"))); // NOI18N
+        buttonLogOut.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                buttonLogOutMouseClicked(evt);
+            }
+        });
+        menuPanel.add(buttonLogOut, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 430, -1, -1));
 
-        jLabel15.setBackground(new java.awt.Color(239, 162, 92));
-        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel15.setText("admin");
-        menuPanel.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 430, 80, 30));
+        labelAdmin.setBackground(new java.awt.Color(239, 162, 92));
+        labelAdmin.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        labelAdmin.setForeground(new java.awt.Color(239, 162, 92));
+        labelAdmin.setText("admin");
+        menuPanel.add(labelAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 430, 80, 30));
 
         buttonMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MENU.png"))); // NOI18N
         buttonMenu.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -256,9 +267,17 @@ public class menuFrame extends javax.swing.JFrame {
         jSeparator10.setForeground(new java.awt.Color(239, 162, 92));
         menuPanel.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 130, 10));
 
+        buttonHome1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/homefix.png"))); // NOI18N
+        menuPanel.add(buttonHome1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, -1, -1));
+
         panelMain.add(menuPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(-180, 0, -1, -1));
 
         mainPanel.setPreferredSize(new java.awt.Dimension(767, 468));
+        mainPanel.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                mainPanelMouseEntered(evt);
+            }
+        });
         mainPanel.setLayout(new java.awt.CardLayout());
 
         panelUtama.setBackground(new java.awt.Color(25, 16, 9));
@@ -403,7 +422,6 @@ public class menuFrame extends javax.swing.JFrame {
         jLabel13.setText("jLabel6");
         kelompokPanel.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 20, 20));
 
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
         jLabel20.setText("jLabel6");
         kelompokPanel.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 20, 20));
 
@@ -411,7 +429,6 @@ public class menuFrame extends javax.swing.JFrame {
         jLabel21.setText("jLabel6");
         kelompokPanel.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 20, 20));
 
-        jLabel22.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\minimize-tab.png")); // NOI18N
         jLabel22.setText("jLabel6");
         kelompokPanel.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 20, 20));
 
@@ -526,7 +543,6 @@ public class menuFrame extends javax.swing.JFrame {
             .addComponent(jLabel36, javax.swing.GroupLayout.DEFAULT_SIZE, 27, Short.MAX_VALUE)
         );
 
-        jLabel33.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
         jLabel33.setText("jLabel6");
 
         jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
@@ -1055,6 +1071,22 @@ public class menuFrame extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jPanel9MouseDragged
 
+    private void menuPanelMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menuPanelMouseExited
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_menuPanelMouseExited
+
+    private void mainPanelMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_mainPanelMouseEntered
+        // TODO add your handling code here:
+        PanelKeKiri();
+    }//GEN-LAST:event_mainPanelMouseEntered
+
+    private void buttonLogOutMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonLogOutMouseClicked
+        // TODO add your handling code here:
+        logouFrame n = new logouFrame();
+        n.setVisible(true);
+    }//GEN-LAST:event_buttonLogOutMouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -1093,7 +1125,9 @@ public class menuFrame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel aboutPanelFix;
     private javax.swing.JLabel buttonAbout;
+    private javax.swing.JLabel buttonHome1;
     private javax.swing.JLabel buttonKelompok;
+    private javax.swing.JLabel buttonLogOut;
     private javax.swing.JLabel buttonMenu;
     private javax.swing.JLabel buttonSetting;
     private javax.swing.JLabel jLabel1;
@@ -1102,8 +1136,6 @@ public class menuFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
@@ -1168,6 +1200,7 @@ public class menuFrame extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JPanel kelompokPanel;
+    private javax.swing.JLabel labelAdmin;
     private javax.swing.JLabel labelAngka;
     private javax.swing.JLabel labelCloseUtama;
     private javax.swing.JLabel labelMinimizeUtama;

@@ -43,31 +43,17 @@ public class loginFrame extends javax.swing.JFrame {
         jLabel20 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        panelLogin1 = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
-        jSeparator2 = new javax.swing.JSeparator();
-        jPasswordField2 = new javax.swing.JPasswordField();
-        jSeparator4 = new javax.swing.JSeparator();
-        jPanel4 = new javax.swing.JPanel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
         setResizable(false);
 
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(240, 240, 240)));
         jPanel1.setPreferredSize(new java.awt.Dimension(767, 468));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         panelLogin.setBackground(new java.awt.Color(25, 16, 9));
+        panelLogin.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(240, 240, 240), 2, true));
         panelLogin.setPreferredSize(new java.awt.Dimension(767, 468));
         panelLogin.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -165,118 +151,24 @@ public class loginFrame extends javax.swing.JFrame {
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
         jLabel6.setText("jLabel6");
+        jLabel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel6MouseClicked(evt);
+            }
+        });
         panelLogin.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 20, 20));
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
         jLabel7.setText("jLabel6");
+        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel7MouseClicked(evt);
+            }
+        });
         panelLogin.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 20, 20));
 
         jPanel1.add(panelLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 470));
-
-        jPanel2.setPreferredSize(new java.awt.Dimension(767, 468));
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        panelLogin1.setBackground(new java.awt.Color(25, 16, 9));
-        panelLogin1.setPreferredSize(new java.awt.Dimension(767, 468));
-        panelLogin1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel8.setText("LOGO");
-        panelLogin1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 90, 73, 61));
-
-        jLabel9.setBackground(new java.awt.Color(239, 162, 92));
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel9.setText("USERNAME");
-        panelLogin1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, 109, -1));
-
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel10.setText("PASSWORD");
-        panelLogin1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 260, 70, 22));
-
-        jTextField2.setBackground(new java.awt.Color(25, 16, 9));
-        jTextField2.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        jTextField2.setForeground(new java.awt.Color(133, 136, 107));
-        jTextField2.setText("HULDAN");
-        jTextField2.setBorder(null);
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
-            }
-        });
-        panelLogin1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 230, 141, -1));
-
-        jSeparator2.setBackground(new java.awt.Color(133, 136, 107));
-        jSeparator2.setForeground(new java.awt.Color(133, 136, 107));
-        panelLogin1.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 250, 170, 10));
-
-        jPasswordField2.setBackground(new java.awt.Color(25, 16, 9));
-        jPasswordField2.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        jPasswordField2.setForeground(new java.awt.Color(133, 136, 107));
-        jPasswordField2.setText("jPasswordField1");
-        jPasswordField2.setBorder(null);
-        panelLogin1.add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 290, 140, -1));
-
-        jSeparator4.setBackground(new java.awt.Color(133, 136, 107));
-        jSeparator4.setForeground(new java.awt.Color(133, 136, 107));
-        panelLogin1.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 310, 170, 10));
-
-        jPanel4.setBackground(new java.awt.Color(239, 162, 92));
-        jPanel4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel4MouseClicked(evt);
-            }
-        });
-
-        jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(25, 16, 9));
-        jLabel11.setText("LOGIN");
-        jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel11MouseClicked(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addContainerGap(23, Short.MAX_VALUE)
-                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18))
-        );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
-        );
-
-        panelLogin1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 320, -1, -1));
-
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(133, 136, 107));
-        jLabel12.setText("Belum mendaftar? daftar disini");
-        panelLogin1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 350, 144, 22));
-
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\user-shape.png")); // NOI18N
-        panelLogin1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 230, -1, -1));
-
-        jLabel22.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\key-silhouette-security-tool-interface-symbol-of-password.png")); // NOI18N
-        panelLogin1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 290, -1, -1));
-
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\minimize-tab.png")); // NOI18N
-        jLabel13.setText("jLabel6");
-        panelLogin1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 20, 20));
-
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
-        jLabel14.setText("jLabel6");
-        panelLogin1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 20, 20));
-
-        jPanel2.add(panelLogin1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 470));
-
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -321,24 +213,23 @@ public class loginFrame extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_jPanel3MouseClicked
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
-
-    private void jLabel11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel11MouseClicked
-
-    private void jPanel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel4MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jPanel4MouseClicked
-
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
         // TODO add your handling code here:
         registerFrame n = new registerFrame();
         n.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel5MouseClicked
+
+    private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
+        // TODO add your handling code here:
+        dialogFrame n  = new dialogFrame();
+        n.setVisible(true);
+    }//GEN-LAST:event_jLabel7MouseClicked
+
+    private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
+        // TODO add your handling code here:
+        this.setState(loginFrame.ICONIFIED);
+    }//GEN-LAST:event_jLabel6MouseClicked
 
     /**
      * @param args the command line arguments
@@ -377,36 +268,20 @@ public class loginFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
     private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JPasswordField jPasswordField2;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
-    private javax.swing.JSeparator jSeparator4;
     private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
     private javax.swing.JPanel panelLogin;
-    private javax.swing.JPanel panelLogin1;
     // End of variables declaration//GEN-END:variables
 }
