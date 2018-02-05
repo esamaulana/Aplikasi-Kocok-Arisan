@@ -124,6 +124,11 @@ public class popUpFrameTambah extends javax.swing.JFrame {
 
         jPanel6.setBackground(new java.awt.Color(236, 245, 192));
         jPanel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel6MouseClicked(evt);
+            }
+        });
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(25, 16, 9));
@@ -262,6 +267,12 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         // TODO add your handling code here:
         dispose();
     }//GEN-LAST:event_jPanel4MouseClicked
+
+    private void jPanel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel6MouseClicked
+        // TODO add your handling code here:
+        tambahFrame n = new tambahFrame();
+                n.setVisible(true);
+    }//GEN-LAST:event_jPanel6MouseClicked
 
     /**
      * @param args the command line arguments

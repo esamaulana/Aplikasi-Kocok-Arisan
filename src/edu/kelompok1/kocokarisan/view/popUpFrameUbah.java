@@ -98,6 +98,11 @@ public class popUpFrameUbah extends javax.swing.JFrame {
 
         jPanel5.setBackground(new java.awt.Color(236, 245, 192));
         jPanel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel5MouseClicked(evt);
+            }
+        });
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(25, 16, 9));
@@ -254,6 +259,12 @@ public class popUpFrameUbah extends javax.swing.JFrame {
         // TODO add your handling code here:
         dispose();
     }//GEN-LAST:event_jPanel8MouseClicked
+
+    private void jPanel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel5MouseClicked
+        // TODO add your handling code here:
+        
+       
+    }//GEN-LAST:event_jPanel5MouseClicked
 
     /**
      * @param args the command line arguments
