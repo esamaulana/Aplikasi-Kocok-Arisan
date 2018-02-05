@@ -49,43 +49,43 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
     }
 
     public JPasswordField getTxtPassword() {
-        return txtPassword;
+        return txtPasswordRegisterF;
     }
 
     public void setTxtPassword(JPasswordField txtPassword) {
-        this.txtPassword = txtPassword;
+        this.txtPasswordRegisterF = txtPassword;
     }
 
     public JPasswordField getTxtPasswordRegister() {
-        return txtPasswordRegister;
+        return txtPasswordmendaftarRegisterF;
     }
 
     public void setTxtPasswordRegister(JPasswordField txtPasswordRegister) {
-        this.txtPasswordRegister = txtPasswordRegister;
+        this.txtPasswordmendaftarRegisterF = txtPasswordRegister;
     }
 
     public JTextField getTxtUsername() {
-        return txtUsername;
+        return txtUsernameRegisterF;
     }
 
     public void setTxtUsername(JTextField txtUsername) {
-        this.txtUsername = txtUsername;
+        this.txtUsernameRegisterF = txtUsername;
     }
 
     public JTextField getTxtUsernameRegister() {
-        return txtUsernameRegister;
+        return txtUsernamemendaftarRegisterF;
     }
 
     public void setTxtUsernameRegister(JTextField txtUsernameRegister) {
-        this.txtUsernameRegister = txtUsernameRegister;
+        this.txtUsernamemendaftarRegisterF = txtUsernameRegister;
     }
 
     public JTextField getTxtEmailRegister() {
-        return txtEmailRegister;
+        return txtEmailendaftarRegisterF;
     }
 
     public void setTxtEmailRegister(JTextField txtEmailRegister) {
-        this.txtEmailRegister = txtEmailRegister;
+        this.txtEmailendaftarRegisterF = txtEmailRegister;
     }
     
     
@@ -101,29 +101,29 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
 
         registerPanel = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
-        txtUsername = new javax.swing.JTextField();
+        lblUsernaeRegisterF = new javax.swing.JLabel();
+        txtUsernameRegisterF = new javax.swing.JTextField();
         jSeparator2 = new javax.swing.JSeparator();
-        jLabel7 = new javax.swing.JLabel();
-        txtPassword = new javax.swing.JPasswordField();
+        lblPasswodRegisterF = new javax.swing.JLabel();
+        txtPasswordRegisterF = new javax.swing.JPasswordField();
         jSeparator4 = new javax.swing.JSeparator();
-        btnLogin = new javax.swing.JPanel();
+        btnLoginRegisterF = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
+        txtUsernae = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jSeparator5 = new javax.swing.JSeparator();
         jLabel9 = new javax.swing.JLabel();
-        txtUsernameRegister = new javax.swing.JTextField();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        txtEmailRegister = new javax.swing.JTextField();
-        jLabel12 = new javax.swing.JLabel();
-        txtPasswordRegister = new javax.swing.JPasswordField();
-        checkSetuju = new javax.swing.JCheckBox();
+        txtUsernamemendaftarRegisterF = new javax.swing.JTextField();
+        lblEmailmendaftarRegisterF = new javax.swing.JLabel();
+        lblUsernamemendaftarRegisterF = new javax.swing.JLabel();
+        txtEmailendaftarRegisterF = new javax.swing.JTextField();
+        lblPasswordmendaftarRegisterF = new javax.swing.JLabel();
+        txtPasswordmendaftarRegisterF = new javax.swing.JPasswordField();
+        checkSetujumendaftarRegisterF = new javax.swing.JCheckBox();
         btnRegister = new javax.swing.JLabel();
-        jLabel43 = new javax.swing.JLabel();
-        jLabel44 = new javax.swing.JLabel();
+        lblExitmendaftarRegisterF = new javax.swing.JLabel();
+        lblMinimendaftarRegisterF = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -135,38 +135,38 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
 
         jPanel4.setBackground(new java.awt.Color(25, 16, 9));
 
-        jLabel6.setBackground(new java.awt.Color(239, 162, 92));
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel6.setText("USERNAME");
+        lblUsernaeRegisterF.setBackground(new java.awt.Color(239, 162, 92));
+        lblUsernaeRegisterF.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblUsernaeRegisterF.setForeground(new java.awt.Color(239, 162, 92));
+        lblUsernaeRegisterF.setText("USERNAME");
 
-        txtUsername.setBackground(new java.awt.Color(25, 16, 9));
-        txtUsername.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        txtUsername.setForeground(new java.awt.Color(133, 136, 107));
-        txtUsername.setText("HULDAN");
-        txtUsername.setBorder(null);
+        txtUsernameRegisterF.setBackground(new java.awt.Color(25, 16, 9));
+        txtUsernameRegisterF.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        txtUsernameRegisterF.setForeground(new java.awt.Color(133, 136, 107));
+        txtUsernameRegisterF.setText("HULDAN");
+        txtUsernameRegisterF.setBorder(null);
 
         jSeparator2.setBackground(new java.awt.Color(133, 136, 107));
         jSeparator2.setForeground(new java.awt.Color(133, 136, 107));
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel7.setText("PASSWORD");
+        lblPasswodRegisterF.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblPasswodRegisterF.setForeground(new java.awt.Color(239, 162, 92));
+        lblPasswodRegisterF.setText("PASSWORD");
 
-        txtPassword.setBackground(new java.awt.Color(25, 16, 9));
-        txtPassword.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        txtPassword.setForeground(new java.awt.Color(133, 136, 107));
-        txtPassword.setText("jPasswordField1");
-        txtPassword.setBorder(null);
+        txtPasswordRegisterF.setBackground(new java.awt.Color(25, 16, 9));
+        txtPasswordRegisterF.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        txtPasswordRegisterF.setForeground(new java.awt.Color(133, 136, 107));
+        txtPasswordRegisterF.setText("jPasswordField1");
+        txtPasswordRegisterF.setBorder(null);
 
         jSeparator4.setBackground(new java.awt.Color(133, 136, 107));
         jSeparator4.setForeground(new java.awt.Color(133, 136, 107));
 
-        btnLogin.setBackground(new java.awt.Color(239, 162, 92));
-        btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnLogin.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnLoginRegisterF.setBackground(new java.awt.Color(239, 162, 92));
+        btnLoginRegisterF.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnLoginRegisterF.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnLoginMouseClicked(evt);
+                btnLoginRegisterFMouseClicked(evt);
             }
         });
 
@@ -174,22 +174,23 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
         jLabel8.setForeground(new java.awt.Color(25, 16, 9));
         jLabel8.setText("LOGIN");
 
-        javax.swing.GroupLayout btnLoginLayout = new javax.swing.GroupLayout(btnLogin);
-        btnLogin.setLayout(btnLoginLayout);
-        btnLoginLayout.setHorizontalGroup(
-            btnLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btnLoginLayout.createSequentialGroup()
+        javax.swing.GroupLayout btnLoginRegisterFLayout = new javax.swing.GroupLayout(btnLoginRegisterF);
+        btnLoginRegisterF.setLayout(btnLoginRegisterFLayout);
+        btnLoginRegisterFLayout.setHorizontalGroup(
+            btnLoginRegisterFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btnLoginRegisterFLayout.createSequentialGroup()
                 .addContainerGap(23, Short.MAX_VALUE)
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18))
         );
-        btnLoginLayout.setVerticalGroup(
-            btnLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        btnLoginRegisterFLayout.setVerticalGroup(
+            btnLoginRegisterFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
         );
 
-        jLabel21.setText("jLabel21");
+        txtUsernae.setText("jLabel21");
 
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/PASSWORD.png"))); // NOI18N
         jLabel22.setText("jLabel21");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -198,13 +199,13 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap(84, Short.MAX_VALUE)
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblUsernaeRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(60, 60, 60))
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(36, 36, 36)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtUsernae, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel4Layout.createSequentialGroup()
@@ -214,40 +215,40 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
                             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(jPanel4Layout.createSequentialGroup()
                                     .addGap(51, 51, 51)
-                                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(lblPasswodRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtPasswordRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtUsernameRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel4Layout.createSequentialGroup()
                             .addGap(41, 41, 41)
-                            .addComponent(btnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(btnLoginRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addContainerGap(35, Short.MAX_VALUE)))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(152, 152, 152)
-                .addComponent(jLabel6)
+                .addComponent(lblUsernaeRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel21)
+                .addComponent(txtUsernae)
                 .addGap(46, 46, 46)
                 .addComponent(jLabel22)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(213, Short.MAX_VALUE))
             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel4Layout.createSequentialGroup()
                     .addGap(182, 182, 182)
-                    .addComponent(txtUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtUsernameRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                     .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(2, 2, 2)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblPasswodRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtPasswordRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                     .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                    .addComponent(btnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnLoginRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(161, Short.MAX_VALUE)))
         );
 
@@ -262,38 +263,38 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
         jLabel9.setForeground(new java.awt.Color(239, 162, 92));
         jLabel9.setText("MENDAFTAR");
 
-        txtUsernameRegister.setBackground(new java.awt.Color(133, 136, 107));
-        txtUsernameRegister.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        txtUsernameRegister.setForeground(new java.awt.Color(25, 16, 9));
-        txtUsernameRegister.setBorder(null);
+        txtUsernamemendaftarRegisterF.setBackground(new java.awt.Color(133, 136, 107));
+        txtUsernamemendaftarRegisterF.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        txtUsernamemendaftarRegisterF.setForeground(new java.awt.Color(25, 16, 9));
+        txtUsernamemendaftarRegisterF.setBorder(null);
 
-        jLabel10.setBackground(new java.awt.Color(239, 162, 92));
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel10.setText("EMAIL :");
+        lblEmailmendaftarRegisterF.setBackground(new java.awt.Color(239, 162, 92));
+        lblEmailmendaftarRegisterF.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        lblEmailmendaftarRegisterF.setForeground(new java.awt.Color(239, 162, 92));
+        lblEmailmendaftarRegisterF.setText("EMAIL :");
 
-        jLabel11.setBackground(new java.awt.Color(239, 162, 92));
-        jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel11.setText("USERNAME :");
+        lblUsernamemendaftarRegisterF.setBackground(new java.awt.Color(239, 162, 92));
+        lblUsernamemendaftarRegisterF.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        lblUsernamemendaftarRegisterF.setForeground(new java.awt.Color(239, 162, 92));
+        lblUsernamemendaftarRegisterF.setText("USERNAME :");
 
-        txtEmailRegister.setBackground(new java.awt.Color(133, 136, 107));
-        txtEmailRegister.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        txtEmailRegister.setForeground(new java.awt.Color(25, 16, 9));
-        txtEmailRegister.setBorder(null);
+        txtEmailendaftarRegisterF.setBackground(new java.awt.Color(133, 136, 107));
+        txtEmailendaftarRegisterF.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        txtEmailendaftarRegisterF.setForeground(new java.awt.Color(25, 16, 9));
+        txtEmailendaftarRegisterF.setBorder(null);
 
-        jLabel12.setBackground(new java.awt.Color(239, 162, 92));
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel12.setText("PASSWORD :");
+        lblPasswordmendaftarRegisterF.setBackground(new java.awt.Color(239, 162, 92));
+        lblPasswordmendaftarRegisterF.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        lblPasswordmendaftarRegisterF.setForeground(new java.awt.Color(239, 162, 92));
+        lblPasswordmendaftarRegisterF.setText("PASSWORD :");
 
-        txtPasswordRegister.setBackground(new java.awt.Color(133, 136, 107));
-        txtPasswordRegister.setForeground(new java.awt.Color(25, 16, 9));
-        txtPasswordRegister.setBorder(null);
+        txtPasswordmendaftarRegisterF.setBackground(new java.awt.Color(133, 136, 107));
+        txtPasswordmendaftarRegisterF.setForeground(new java.awt.Color(25, 16, 9));
+        txtPasswordmendaftarRegisterF.setBorder(null);
 
-        checkSetuju.setBackground(new java.awt.Color(25, 16, 9));
-        checkSetuju.setForeground(new java.awt.Color(133, 136, 107));
-        checkSetuju.setText("saya setuju dengan semua persyaratan");
+        checkSetujumendaftarRegisterF.setBackground(new java.awt.Color(25, 16, 9));
+        checkSetujumendaftarRegisterF.setForeground(new java.awt.Color(133, 136, 107));
+        checkSetujumendaftarRegisterF.setText("saya setuju dengan semua persyaratan");
 
         btnRegister.setBackground(new java.awt.Color(239, 162, 92));
         btnRegister.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
@@ -306,14 +307,14 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
             }
         });
 
-        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
-        jLabel43.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblExitmendaftarRegisterF.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
+        lblExitmendaftarRegisterF.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jLabel44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
-        jLabel44.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabel44.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblMinimendaftarRegisterF.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
+        lblMinimendaftarRegisterF.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblMinimendaftarRegisterF.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel44MouseClicked(evt);
+                lblMinimendaftarRegisterFMouseClicked(evt);
             }
         });
 
@@ -326,25 +327,25 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
                 .addGap(81, 81, 81)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(checkSetuju, javax.swing.GroupLayout.DEFAULT_SIZE, 242, Short.MAX_VALUE)
+                        .addComponent(checkSetujumendaftarRegisterF, javax.swing.GroupLayout.DEFAULT_SIZE, 242, Short.MAX_VALUE)
                         .addGap(177, 177, 177))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(btnRegister)
                             .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtUsernameRegister)
-                                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtEmailRegister)
-                                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtPasswordRegister, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(txtUsernamemendaftarRegisterF)
+                                .addComponent(lblEmailmendaftarRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtEmailendaftarRegisterF)
+                                .addComponent(lblUsernamemendaftarRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(lblPasswordmendaftarRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtPasswordmendaftarRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(99, 99, 99))))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel44)
+                .addComponent(lblMinimendaftarRegisterF)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel43)
+                .addComponent(lblExitmendaftarRegisterF)
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
@@ -356,26 +357,26 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel43)
-                    .addComponent(jLabel44))
+                    .addComponent(lblExitmendaftarRegisterF)
+                    .addComponent(lblMinimendaftarRegisterF))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
                 .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel10)
+                .addComponent(lblEmailmendaftarRegisterF)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtEmailRegister, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtEmailendaftarRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(25, 25, 25)
-                .addComponent(jLabel11)
+                .addComponent(lblUsernamemendaftarRegisterF)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtUsernameRegister, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtUsernamemendaftarRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(29, 29, 29)
-                .addComponent(jLabel12)
+                .addComponent(lblPasswordmendaftarRegisterF)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(txtPasswordRegister, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtPasswordmendaftarRegisterF, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(checkSetuju))
+                        .addComponent(checkSetujumendaftarRegisterF))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(42, 42, 42)
                         .addComponent(btnRegister, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -414,22 +415,22 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
 
     }//GEN-LAST:event_btnRegisterMouseClicked
 
-    private void btnLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnLoginMouseClicked
+    private void btnLoginRegisterFMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnLoginRegisterFMouseClicked
         // TODO add your handling code here:
         Boolean cek = Boolean.FALSE;
-        if (txtUsername.getText().trim().equals("")) {
+        if (txtUsernameRegisterF.getText().trim().equals("")) {
             JOptionPane.showMessageDialog(null, "Nama belum di isi");
-        } else if (new String(txtPassword.getPassword()).trim().equals("")) {
+        } else if (new String(txtPasswordRegisterF.getPassword()).trim().equals("")) {
             JOptionPane.showMessageDialog(null, "Password belum di isi");
         } else {
             cek=Boolean.TRUE;
         }
         try {
-            sql="SELECT * FROM ADMIN WHERE USERNAME='" +txtUsername.getText()+ "' AND PASSWORD='" + new String(txtPassword.getPassword()) + "'";
+            sql="SELECT * FROM ADMIN WHERE USERNAME='" +txtUsernameRegisterF.getText()+ "' AND PASSWORD='" + new String(txtPasswordRegisterF.getPassword()) + "'";
             rs = stmt.executeQuery(sql);
             if(cek) {
             if(rs.next()) {
-                if(txtUsername.getText().equals(rs.getString("USERNAME")) && new String(txtPassword.getPassword()).equals(rs.getString("PASSWORD"))) {
+                if(txtUsernameRegisterF.getText().equals(rs.getString("USERNAME")) && new String(txtPasswordRegisterF.getPassword()).equals(rs.getString("PASSWORD"))) {
                     menuFrame n  = new menuFrame();
                     n.setVisible(true);
         dispose();
@@ -441,12 +442,12 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, e.getMessage());
         }
-    }//GEN-LAST:event_btnLoginMouseClicked
+    }//GEN-LAST:event_btnLoginRegisterFMouseClicked
 
-    private void jLabel44MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel44MouseClicked
+    private void lblMinimendaftarRegisterFMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblMinimendaftarRegisterFMouseClicked
         // TODO add your handling code here:
         this.setState(menuFrame.ICONIFIED);
-    }//GEN-LAST:event_jLabel44MouseClicked
+    }//GEN-LAST:event_lblMinimendaftarRegisterFMouseClicked
 
     /**
      * @param args the command line arguments
@@ -484,18 +485,10 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel btnLogin;
+    private javax.swing.JPanel btnLoginRegisterF;
     private javax.swing.JLabel btnRegister;
-    private javax.swing.JCheckBox checkSetuju;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel21;
+    private javax.swing.JCheckBox checkSetujumendaftarRegisterF;
     private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel43;
-    private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel4;
@@ -503,19 +496,27 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator4;
     private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JLabel lblEmailmendaftarRegisterF;
+    private javax.swing.JLabel lblExitmendaftarRegisterF;
+    private javax.swing.JLabel lblMinimendaftarRegisterF;
+    private javax.swing.JLabel lblPasswodRegisterF;
+    private javax.swing.JLabel lblPasswordmendaftarRegisterF;
+    private javax.swing.JLabel lblUsernaeRegisterF;
+    private javax.swing.JLabel lblUsernamemendaftarRegisterF;
     private javax.swing.JPanel registerPanel;
-    private javax.swing.JTextField txtEmailRegister;
-    private javax.swing.JPasswordField txtPassword;
-    private javax.swing.JPasswordField txtPasswordRegister;
-    private javax.swing.JTextField txtUsername;
-    private javax.swing.JTextField txtUsernameRegister;
+    private javax.swing.JTextField txtEmailendaftarRegisterF;
+    private javax.swing.JPasswordField txtPasswordRegisterF;
+    private javax.swing.JPasswordField txtPasswordmendaftarRegisterF;
+    private javax.swing.JLabel txtUsernae;
+    private javax.swing.JTextField txtUsernameRegisterF;
+    private javax.swing.JTextField txtUsernamemendaftarRegisterF;
     // End of variables declaration//GEN-END:variables
 
     @Override
     public void onChange(AdminModel model) {
-        txtUsernameRegister.setText(model.getUsername());
-        txtPasswordRegister.setText(model.getPassword());
-        txtEmailRegister.setText(model.getEmail());
+        txtUsernamemendaftarRegisterF.setText(model.getUsername());
+        txtPasswordmendaftarRegisterF.setText(model.getPassword());
+        txtEmailendaftarRegisterF.setText(model.getEmail());
     }
 
     @Override
