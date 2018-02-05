@@ -17,6 +17,7 @@ import edu.kelompok1.kocokarisan.error.KelompokArisanException;
 import edu.kelompok1.kocokarisan.service.AdminDao;
 import edu.kelompok1.kocokarisan.service.AnggotaArisanDao;
 import edu.kelompok1.kocokarisan.service.KelompokArisanDao;
+import edu.kelompok1.kocokarisan.view.loginFrame;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -35,14 +36,8 @@ public class AplikasiKocokArisan {
      * @throws edu.kelompok1.kocokarisan.error.AnggotaArisanException
      */
     public static void main(String[] args) throws SQLException, AdminException, AnggotaArisanException, KelompokArisanException {
-        AdminDao daao = ArisanYukDatabase.getAdminDao();
-        AnggotaArisanDao dao = ArisanYukDatabase.getAnggotaDao();
-        KelompokArisanDao daoo = ArisanYukDatabase.getKelompokDao();
-        Admin admin = daao.getAdminByUsername("asu");
-        admin.setUsername("asuS");
-        admin.setPassword("faldia");
-        
-        daao.updateAdmin(admin);
+        loginFrame arisan = new loginFrame();
+        arisan.setVisible(true);
         
         
        
