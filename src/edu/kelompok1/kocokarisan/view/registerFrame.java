@@ -98,6 +98,7 @@ public class registerFrame extends javax.swing.JFrame {
         jSeparator4.setForeground(new java.awt.Color(133, 136, 107));
 
         jPanel6.setBackground(new java.awt.Color(239, 162, 92));
+        jPanel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel6MouseClicked(evt);
@@ -248,6 +249,7 @@ public class registerFrame extends javax.swing.JFrame {
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(239, 162, 92));
         jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\right-chevron.png")); // NOI18N
+        jLabel13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel13MouseClicked(evt);
@@ -255,8 +257,15 @@ public class registerFrame extends javax.swing.JFrame {
         });
 
         jLabel43.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\error.png")); // NOI18N
+        jLabel43.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel44.setIcon(new javax.swing.ImageIcon("C:\\Users\\HLDN\\Downloads\\minimize-tab.png")); // NOI18N
+        jLabel44.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel44.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel44MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -373,6 +382,11 @@ public class registerFrame extends javax.swing.JFrame {
         n.setVisible(true);
         dispose();
     }//GEN-LAST:event_jPanel6MouseClicked
+
+    private void jLabel44MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel44MouseClicked
+        // TODO add your handling code here:
+        this.setState(menuFrame.ICONIFIED);
+    }//GEN-LAST:event_jLabel44MouseClicked
 
     /**
      * @param args the command line arguments

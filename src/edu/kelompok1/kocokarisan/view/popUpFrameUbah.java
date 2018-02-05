@@ -52,6 +52,7 @@ public class popUpFrameUbah extends javax.swing.JFrame {
         popupPanelutamaUbah.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         popupPanelUbah.setBackground(new java.awt.Color(25, 16, 9));
+        popupPanelUbah.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(240, 240, 240), 2));
         popupPanelUbah.setRequestFocusEnabled(false);
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
@@ -96,7 +97,9 @@ public class popUpFrameUbah extends javax.swing.JFrame {
         jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jPanel5.setBackground(new java.awt.Color(236, 245, 192));
+        jPanel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(25, 16, 9));
         jLabel15.setText("UBAH");
 
@@ -114,12 +117,14 @@ public class popUpFrameUbah extends javax.swing.JFrame {
         );
 
         jPanel8.setBackground(new java.awt.Color(236, 245, 192));
+        jPanel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel8MouseClicked(evt);
             }
         });
 
+        jLabel18.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(25, 16, 9));
         jLabel18.setText("CANCEL");
 
@@ -138,7 +143,9 @@ public class popUpFrameUbah extends javax.swing.JFrame {
         );
 
         jPanel9.setBackground(new java.awt.Color(239, 162, 92));
+        jPanel9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        jLabel19.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(25, 16, 9));
         jLabel19.setText("RESET");
 
@@ -212,7 +219,7 @@ public class popUpFrameUbah extends javax.swing.JFrame {
                     .addComponent(jLabel12)
                     .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
                 .addGroup(popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)

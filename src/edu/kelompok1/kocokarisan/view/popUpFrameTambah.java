@@ -52,6 +52,7 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         popupPanelutamaTambah.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         popupPanelTambah.setBackground(new java.awt.Color(25, 16, 9));
+        popupPanelTambah.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(240, 240, 240), 2));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(239, 162, 92));
@@ -70,10 +71,12 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         jLabel9.setText("Nama Grup");
 
         jTextField3.setBackground(new java.awt.Color(239, 162, 92));
+        jTextField3.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jTextField3.setForeground(new java.awt.Color(25, 16, 9));
         jTextField3.setBorder(null);
 
         jTextField4.setBackground(new java.awt.Color(239, 162, 92));
+        jTextField4.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jTextField4.setForeground(new java.awt.Color(25, 16, 9));
         jTextField4.setBorder(null);
 
@@ -87,18 +90,21 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         }
 
         jComboBox3.setBackground(new java.awt.Color(239, 162, 92));
+        jComboBox3.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jComboBox4.setBackground(new java.awt.Color(239, 162, 92));
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jPanel4.setBackground(new java.awt.Color(236, 245, 192));
+        jPanel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel4MouseClicked(evt);
             }
         });
 
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(25, 16, 9));
         jLabel10.setText("BATAL");
 
@@ -117,7 +123,9 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         );
 
         jPanel6.setBackground(new java.awt.Color(236, 245, 192));
+        jPanel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(25, 16, 9));
         jLabel16.setText("TAMBAH");
 
@@ -136,8 +144,10 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         );
 
         jPanel7.setBackground(new java.awt.Color(239, 162, 92));
+        jPanel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel17.setBackground(new java.awt.Color(239, 162, 92));
+        jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(25, 16, 9));
         jLabel17.setText("RESET");
 

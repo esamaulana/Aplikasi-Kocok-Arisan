@@ -53,7 +53,7 @@ public class loginFrame extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         panelLogin.setBackground(new java.awt.Color(25, 16, 9));
-        panelLogin.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(240, 240, 240), 2, true));
+        panelLogin.setForeground(new java.awt.Color(239, 162, 92));
         panelLogin.setPreferredSize(new java.awt.Dimension(767, 468));
         panelLogin.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -102,6 +102,7 @@ public class loginFrame extends javax.swing.JFrame {
         panelLogin.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 310, 170, 10));
 
         jPanel3.setBackground(new java.awt.Color(239, 162, 92));
+        jPanel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel3MouseClicked(evt);
@@ -135,13 +136,13 @@ public class loginFrame extends javax.swing.JFrame {
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(133, 136, 107));
-        jLabel5.setText("Belum mendaftar? daftar disini");
+        jLabel5.setText("Belum punyak akun? daftar disini");
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel5MouseClicked(evt);
             }
         });
-        panelLogin.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 350, 144, 22));
+        panelLogin.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 350, 170, 22));
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/user-shape.png"))); // NOI18N
         panelLogin.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 230, -1, -1));
@@ -161,6 +162,7 @@ public class loginFrame extends javax.swing.JFrame {
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
         jLabel7.setText("jLabel6");
+        jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel7MouseClicked(evt);
