@@ -6,6 +6,8 @@
 package edu.kelompok1.kocokarisan.view;
 
 import ClassAnimation.sSlide;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
 /**
  *
  * @author HLDN
@@ -26,6 +28,31 @@ public class menuFrame extends javax.swing.JFrame {
     public void PanelKeKanan(){
         slide.jPanelXKanan(-180, 0, 7, 5, menuPanel);
     }
+
+    public JTextField getTxtEmailMenuFrame() {
+        return txtEmailMenuFrame;
+    }
+
+    public void setTxtEmailMenuFrame(JTextField txtEmailMenuFrame) {
+        this.txtEmailMenuFrame = txtEmailMenuFrame;
+    }
+
+    public JPasswordField getTxtPasswordMenuFrame() {
+        return txtPasswordMenuFrame;
+    }
+
+    public void setTxtPasswordMenuFrame(JPasswordField txtPasswordMenuFrame) {
+        this.txtPasswordMenuFrame = txtPasswordMenuFrame;
+    }
+
+    public JTextField getTxtUsernameMenuFrame() {
+        return txtUsernameMenuFrame;
+    }
+
+    public void setTxtUsernameMenuFrame(JTextField txtUsernameMenuFrame) {
+        this.txtUsernameMenuFrame = txtUsernameMenuFrame;
+    }
+    
     
     
     /**
@@ -82,11 +109,11 @@ public class menuFrame extends javax.swing.JFrame {
         jLabel21 = new javax.swing.JLabel();
         settingPanel = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
-        jTextField4 = new javax.swing.JTextField();
+        txtEmailMenuFrame = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
+        txtUsernameMenuFrame = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
-        jPasswordField3 = new javax.swing.JPasswordField();
+        txtPasswordMenuFrame = new javax.swing.JPasswordField();
         labelSetting = new javax.swing.JLabel();
         jPanel10 = new javax.swing.JPanel();
         jLabel34 = new javax.swing.JLabel();
@@ -462,42 +489,29 @@ public class menuFrame extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(239, 162, 92));
         jLabel10.setText("EMAIL :");
 
-        jTextField4.setBackground(new java.awt.Color(133, 136, 107));
-        jTextField4.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        jTextField4.setForeground(new java.awt.Color(25, 16, 9));
-        jTextField4.setText("HuldanGanteng");
-        jTextField4.setBorder(null);
-        jTextField4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField4ActionPerformed(evt);
-            }
-        });
+        txtEmailMenuFrame.setBackground(new java.awt.Color(133, 136, 107));
+        txtEmailMenuFrame.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        txtEmailMenuFrame.setForeground(new java.awt.Color(25, 16, 9));
+        txtEmailMenuFrame.setBorder(null);
 
         jLabel11.setBackground(new java.awt.Color(239, 162, 92));
         jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(239, 162, 92));
         jLabel11.setText("USERNAME :");
 
-        jTextField3.setBackground(new java.awt.Color(133, 136, 107));
-        jTextField3.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        jTextField3.setForeground(new java.awt.Color(25, 16, 9));
-        jTextField3.setText("example@gmail.com");
-        jTextField3.setBorder(null);
-        jTextField3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField3ActionPerformed(evt);
-            }
-        });
+        txtUsernameMenuFrame.setBackground(new java.awt.Color(133, 136, 107));
+        txtUsernameMenuFrame.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        txtUsernameMenuFrame.setForeground(new java.awt.Color(25, 16, 9));
+        txtUsernameMenuFrame.setBorder(null);
 
         jLabel12.setBackground(new java.awt.Color(239, 162, 92));
         jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(239, 162, 92));
         jLabel12.setText("PASSWORD :");
 
-        jPasswordField3.setBackground(new java.awt.Color(133, 136, 107));
-        jPasswordField3.setForeground(new java.awt.Color(25, 16, 9));
-        jPasswordField3.setText("jPasswordField3");
-        jPasswordField3.setBorder(null);
+        txtPasswordMenuFrame.setBackground(new java.awt.Color(133, 136, 107));
+        txtPasswordMenuFrame.setForeground(new java.awt.Color(25, 16, 9));
+        txtPasswordMenuFrame.setBorder(null);
 
         labelSetting.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
         labelSetting.setForeground(new java.awt.Color(239, 162, 92));
@@ -604,10 +618,10 @@ public class menuFrame extends javax.swing.JFrame {
                                     .addGap(30, 30, 30)
                                     .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGroup(settingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(jTextField3, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtUsernameMenuFrame, javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(labelSetting, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTextField4, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jPasswordField3, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(txtEmailMenuFrame, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtPasswordMenuFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(135, 135, 135))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, settingPanelLayout.createSequentialGroup()
                         .addComponent(jLabel41)
@@ -632,15 +646,15 @@ public class menuFrame extends javax.swing.JFrame {
                 .addGap(30, 30, 30)
                 .addComponent(jLabel10)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtEmailMenuFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(25, 25, 25)
                 .addComponent(jLabel11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtUsernameMenuFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(24, 24, 24)
                 .addComponent(jLabel12)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPasswordField3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtPasswordMenuFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(30, 30, 30)
                 .addGroup(settingPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -835,11 +849,6 @@ public class menuFrame extends javax.swing.JFrame {
         jTextField1.setForeground(new java.awt.Color(25, 16, 9));
         jTextField1.setText("10116487");
         jTextField1.setBorder(null);
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
 
         jTextField2.setBackground(new java.awt.Color(239, 162, 92));
         jTextField2.setFont(new java.awt.Font("Segoe UI", 0, 8)); // NOI18N
@@ -991,18 +1000,6 @@ public class menuFrame extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
-        // TODO add your ha ndling code here:
-    }//GEN-LAST:event_jTextField4ActionPerformed
-
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField3ActionPerformed
-
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void buttonKelompokMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonKelompokMouseClicked
         // TODO add your handling code here:
@@ -1232,7 +1229,6 @@ public class menuFrame extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
-    private javax.swing.JPasswordField jPasswordField3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
@@ -1245,8 +1241,6 @@ public class menuFrame extends javax.swing.JFrame {
     private javax.swing.JTable jTable2;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JPanel kelompokPanel;
     private javax.swing.JLabel labelAdmin;
@@ -1268,5 +1262,8 @@ public class menuFrame extends javax.swing.JFrame {
     private javax.swing.JPanel panelUtama;
     private javax.swing.JPanel settingPanel;
     private javax.swing.JPanel tambahAnggotaPanel;
+    private javax.swing.JTextField txtEmailMenuFrame;
+    private javax.swing.JPasswordField txtPasswordMenuFrame;
+    private javax.swing.JTextField txtUsernameMenuFrame;
     // End of variables declaration//GEN-END:variables
 }

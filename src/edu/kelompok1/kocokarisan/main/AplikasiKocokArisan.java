@@ -5,17 +5,49 @@
  */
 package edu.kelompok1.kocokarisan.main;
 
+
+
+import edu.kelompok1.kocokarisan.database.ArisanYukDatabase;
+import edu.kelompok1.kocokarisan.entity.Admin;
+import edu.kelompok1.kocokarisan.entity.AnggotaArisan;
+import edu.kelompok1.kocokarisan.entity.KelompokArisan;
+import edu.kelompok1.kocokarisan.error.AdminException;
+import edu.kelompok1.kocokarisan.error.AnggotaArisanException;
+import edu.kelompok1.kocokarisan.error.KelompokArisanException;
+import edu.kelompok1.kocokarisan.service.AdminDao;
+import edu.kelompok1.kocokarisan.service.AnggotaArisanDao;
+import edu.kelompok1.kocokarisan.service.KelompokArisanDao;
+import java.sql.SQLException;
+import java.util.List;
+
+
+
 /**
  *
- * @author faldi
+ * @author Shorfana
  */
 public class AplikasiKocokArisan {
 
     /**
      * @param args the command line arguments
+     * @throws java.sql.SQLException
+     * @throws edu.kelompok1.kocokarisan.error.AdminException
+     * @throws edu.kelompok1.kocokarisan.error.AnggotaArisanException
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws SQLException, AdminException, AnggotaArisanException, KelompokArisanException {
+        AdminDao daao = ArisanYukDatabase.getAdminDao();
+        AnggotaArisanDao dao = ArisanYukDatabase.getAnggotaDao();
+        KelompokArisanDao daoo = ArisanYukDatabase.getKelompokDao();
+        Admin admin = daao.getAdminByUsername("asu");
+        admin.setUsername("asuS");
+        admin.setPassword("faldia");
+        
+        daao.updateAdmin(admin);
+        
+        
+       
+        
+        
+        
     }
-    
 }
