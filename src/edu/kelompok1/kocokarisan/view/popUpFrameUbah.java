@@ -28,21 +28,21 @@ public class popUpFrameUbah extends javax.swing.JFrame {
     private void initComponents() {
 
         popupPanelutamaUbah = new javax.swing.JPanel();
-        popupPanelUbah = new javax.swing.JPanel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jTextField5 = new javax.swing.JTextField();
-        jTextField6 = new javax.swing.JTextField();
-        jFormattedTextField3 = new javax.swing.JFormattedTextField();
-        jComboBox5 = new javax.swing.JComboBox<>();
-        jComboBox6 = new javax.swing.JComboBox<>();
-        jPanel5 = new javax.swing.JPanel();
+        lblNamagrupUbah = new javax.swing.JPanel();
+        lblJumlahSetoranUbah = new javax.swing.JLabel();
+        lblJadwalUbah = new javax.swing.JLabel();
+        lblJumlahanggotaUbah = new javax.swing.JLabel();
+        lblNamaUbah = new javax.swing.JLabel();
+        txtNamagrupUbah = new javax.swing.JTextField();
+        txtJumlahanggotaUbah = new javax.swing.JTextField();
+        txtJumlahsetoranUbah = new javax.swing.JFormattedTextField();
+        comboItem1Ubah = new javax.swing.JComboBox<>();
+        comboItem2 = new javax.swing.JComboBox<>();
+        btnUbahUbah = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
-        jPanel8 = new javax.swing.JPanel();
+        btnCancelUbah = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
-        jPanel9 = new javax.swing.JPanel();
+        btnResetUbah = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -51,56 +51,56 @@ public class popUpFrameUbah extends javax.swing.JFrame {
 
         popupPanelutamaUbah.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        popupPanelUbah.setBackground(new java.awt.Color(25, 16, 9));
-        popupPanelUbah.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(240, 240, 240), 2));
-        popupPanelUbah.setRequestFocusEnabled(false);
+        lblNamagrupUbah.setBackground(new java.awt.Color(25, 16, 9));
+        lblNamagrupUbah.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(240, 240, 240), 2));
+        lblNamagrupUbah.setRequestFocusEnabled(false);
 
-        jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel11.setText("Jumlah Setoran");
+        lblJumlahSetoranUbah.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        lblJumlahSetoranUbah.setForeground(new java.awt.Color(239, 162, 92));
+        lblJumlahSetoranUbah.setText("Jumlah Setoran");
 
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel12.setText("Jadwal");
+        lblJadwalUbah.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        lblJadwalUbah.setForeground(new java.awt.Color(239, 162, 92));
+        lblJadwalUbah.setText("Jadwal");
 
-        jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel13.setText("Jumlah Anggota");
+        lblJumlahanggotaUbah.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        lblJumlahanggotaUbah.setForeground(new java.awt.Color(239, 162, 92));
+        lblJumlahanggotaUbah.setText("Jumlah Anggota");
 
-        jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel14.setText("Nama Grup");
+        lblNamaUbah.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        lblNamaUbah.setForeground(new java.awt.Color(239, 162, 92));
+        lblNamaUbah.setText("Nama Grup");
 
-        jTextField5.setBackground(new java.awt.Color(239, 162, 92));
-        jTextField5.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jTextField5.setForeground(new java.awt.Color(25, 16, 9));
-        jTextField5.setBorder(null);
+        txtNamagrupUbah.setBackground(new java.awt.Color(239, 162, 92));
+        txtNamagrupUbah.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        txtNamagrupUbah.setForeground(new java.awt.Color(25, 16, 9));
+        txtNamagrupUbah.setBorder(null);
 
-        jTextField6.setBackground(new java.awt.Color(239, 162, 92));
-        jTextField6.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jTextField6.setForeground(new java.awt.Color(25, 16, 9));
-        jTextField6.setBorder(null);
+        txtJumlahanggotaUbah.setBackground(new java.awt.Color(239, 162, 92));
+        txtJumlahanggotaUbah.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        txtJumlahanggotaUbah.setForeground(new java.awt.Color(25, 16, 9));
+        txtJumlahanggotaUbah.setBorder(null);
 
-        jFormattedTextField3.setBackground(new java.awt.Color(239, 162, 92));
-        jFormattedTextField3.setBorder(null);
-        jFormattedTextField3.setForeground(new java.awt.Color(25, 16, 9));
+        txtJumlahsetoranUbah.setBackground(new java.awt.Color(239, 162, 92));
+        txtJumlahsetoranUbah.setBorder(null);
+        txtJumlahsetoranUbah.setForeground(new java.awt.Color(25, 16, 9));
         try {
-            jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("Rp. ###,###")));
+            txtJumlahsetoranUbah.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("Rp. ###,###")));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
 
-        jComboBox5.setBackground(new java.awt.Color(239, 162, 92));
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        comboItem1Ubah.setBackground(new java.awt.Color(239, 162, 92));
+        comboItem1Ubah.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jComboBox6.setBackground(new java.awt.Color(239, 162, 92));
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        comboItem2.setBackground(new java.awt.Color(239, 162, 92));
+        comboItem2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jPanel5.setBackground(new java.awt.Color(236, 245, 192));
-        jPanel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel5.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnUbahUbah.setBackground(new java.awt.Color(236, 245, 192));
+        btnUbahUbah.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnUbahUbah.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel5MouseClicked(evt);
+                btnUbahUbahMouseClicked(evt);
             }
         });
 
@@ -108,24 +108,24 @@ public class popUpFrameUbah extends javax.swing.JFrame {
         jLabel15.setForeground(new java.awt.Color(25, 16, 9));
         jLabel15.setText("UBAH");
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+        javax.swing.GroupLayout btnUbahUbahLayout = new javax.swing.GroupLayout(btnUbahUbah);
+        btnUbahUbah.setLayout(btnUbahUbahLayout);
+        btnUbahUbahLayout.setHorizontalGroup(
+            btnUbahUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btnUbahUbahLayout.createSequentialGroup()
                 .addGap(0, 18, Short.MAX_VALUE)
                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        btnUbahUbahLayout.setVerticalGroup(
+            btnUbahUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
         );
 
-        jPanel8.setBackground(new java.awt.Color(236, 245, 192));
-        jPanel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel8.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnCancelUbah.setBackground(new java.awt.Color(236, 245, 192));
+        btnCancelUbah.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnCancelUbah.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel8MouseClicked(evt);
+                btnCancelUbahMouseClicked(evt);
             }
         });
 
@@ -133,106 +133,106 @@ public class popUpFrameUbah extends javax.swing.JFrame {
         jLabel18.setForeground(new java.awt.Color(25, 16, 9));
         jLabel18.setText("CANCEL");
 
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
+        javax.swing.GroupLayout btnCancelUbahLayout = new javax.swing.GroupLayout(btnCancelUbah);
+        btnCancelUbah.setLayout(btnCancelUbahLayout);
+        btnCancelUbahLayout.setHorizontalGroup(
+            btnCancelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btnCancelUbahLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        btnCancelUbahLayout.setVerticalGroup(
+            btnCancelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
         );
 
-        jPanel9.setBackground(new java.awt.Color(239, 162, 92));
-        jPanel9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnResetUbah.setBackground(new java.awt.Color(239, 162, 92));
+        btnResetUbah.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel19.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(25, 16, 9));
         jLabel19.setText("RESET");
 
-        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
-        jPanel9.setLayout(jPanel9Layout);
-        jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
+        javax.swing.GroupLayout btnResetUbahLayout = new javax.swing.GroupLayout(btnResetUbah);
+        btnResetUbah.setLayout(btnResetUbahLayout);
+        btnResetUbahLayout.setHorizontalGroup(
+            btnResetUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btnResetUbahLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel19)
                 .addContainerGap(20, Short.MAX_VALUE))
         );
-        jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        btnResetUbahLayout.setVerticalGroup(
+            btnResetUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
         );
 
-        javax.swing.GroupLayout popupPanelUbahLayout = new javax.swing.GroupLayout(popupPanelUbah);
-        popupPanelUbah.setLayout(popupPanelUbahLayout);
-        popupPanelUbahLayout.setHorizontalGroup(
-            popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(popupPanelUbahLayout.createSequentialGroup()
+        javax.swing.GroupLayout lblNamagrupUbahLayout = new javax.swing.GroupLayout(lblNamagrupUbah);
+        lblNamagrupUbah.setLayout(lblNamagrupUbahLayout);
+        lblNamagrupUbahLayout.setHorizontalGroup(
+            lblNamagrupUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(lblNamagrupUbahLayout.createSequentialGroup()
                 .addGap(76, 76, 76)
-                .addGroup(popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel14)
-                    .addComponent(jLabel12)
-                    .addComponent(jLabel11)
-                    .addComponent(jLabel13))
+                .addGroup(lblNamagrupUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblNamaUbah)
+                    .addComponent(lblJadwalUbah)
+                    .addComponent(lblJumlahSetoranUbah)
+                    .addComponent(lblJumlahanggotaUbah))
                 .addGap(63, 63, 63)
-                .addGroup(popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(popupPanelUbahLayout.createSequentialGroup()
+                .addGroup(lblNamagrupUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtJumlahanggotaUbah, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(lblNamagrupUbahLayout.createSequentialGroup()
                         .addGap(36, 36, 36)
-                        .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnUbahUbah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(14, 14, 14)
-                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnCancelUbah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(jFormattedTextField3, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jTextField5, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, popupPanelUbahLayout.createSequentialGroup()
-                            .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnResetUbah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(lblNamagrupUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(txtJumlahsetoranUbah, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(txtNamagrupUbah, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, lblNamagrupUbahLayout.createSequentialGroup()
+                            .addComponent(comboItem1Ubah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(22, 22, 22)
-                            .addComponent(jComboBox6, 0, 65, Short.MAX_VALUE))))
+                            .addComponent(comboItem2, 0, 65, Short.MAX_VALUE))))
                 .addContainerGap(37, Short.MAX_VALUE))
         );
-        popupPanelUbahLayout.setVerticalGroup(
-            popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(popupPanelUbahLayout.createSequentialGroup()
+        lblNamagrupUbahLayout.setVerticalGroup(
+            lblNamagrupUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(lblNamagrupUbahLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addGroup(popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel14)
-                    .addGroup(popupPanelUbahLayout.createSequentialGroup()
+                .addGroup(lblNamagrupUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblNamaUbah)
+                    .addGroup(lblNamagrupUbahLayout.createSequentialGroup()
                         .addGap(1, 1, 1)
-                        .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txtNamagrupUbah, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel13)
-                    .addGroup(popupPanelUbahLayout.createSequentialGroup()
+                .addGroup(lblNamagrupUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblJumlahanggotaUbah)
+                    .addGroup(lblNamagrupUbahLayout.createSequentialGroup()
                         .addGap(1, 1, 1)
-                        .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txtJumlahanggotaUbah, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel11)
-                    .addGroup(popupPanelUbahLayout.createSequentialGroup()
+                .addGroup(lblNamagrupUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(lblJumlahSetoranUbah)
+                    .addGroup(lblNamagrupUbahLayout.createSequentialGroup()
                         .addGap(1, 1, 1)
-                        .addComponent(jFormattedTextField3, javax.swing.GroupLayout.DEFAULT_SIZE, 21, Short.MAX_VALUE)))
+                        .addComponent(txtJumlahsetoranUbah, javax.swing.GroupLayout.DEFAULT_SIZE, 21, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel12)
-                    .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(lblNamagrupUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblJadwalUbah)
+                    .addComponent(comboItem1Ubah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(comboItem2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
-                .addGroup(popupPanelUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(lblNamagrupUbahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnUbahUbah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnCancelUbah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnResetUbah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(21, 21, 21))
         );
 
-        popupPanelutamaUbah.add(popupPanelUbah, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 260));
+        popupPanelutamaUbah.add(lblNamagrupUbah, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 260));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -255,16 +255,16 @@ public class popUpFrameUbah extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jPanel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel8MouseClicked
+    private void btnCancelUbahMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCancelUbahMouseClicked
         // TODO add your handling code here:
         dispose();
-    }//GEN-LAST:event_jPanel8MouseClicked
+    }//GEN-LAST:event_btnCancelUbahMouseClicked
 
-    private void jPanel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel5MouseClicked
+    private void btnUbahUbahMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnUbahUbahMouseClicked
         // TODO add your handling code here:
         
        
-    }//GEN-LAST:event_jPanel5MouseClicked
+    }//GEN-LAST:event_btnUbahUbahMouseClicked
 
     /**
      * @param args the command line arguments
@@ -302,22 +302,22 @@ public class popUpFrameUbah extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox<String> jComboBox5;
-    private javax.swing.JComboBox<String> jComboBox6;
-    private javax.swing.JFormattedTextField jFormattedTextField3;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
+    private javax.swing.JPanel btnCancelUbah;
+    private javax.swing.JPanel btnResetUbah;
+    private javax.swing.JPanel btnUbahUbah;
+    private javax.swing.JComboBox<String> comboItem1Ubah;
+    private javax.swing.JComboBox<String> comboItem2;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
-    private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField6;
-    private javax.swing.JPanel popupPanelUbah;
+    private javax.swing.JLabel lblJadwalUbah;
+    private javax.swing.JLabel lblJumlahSetoranUbah;
+    private javax.swing.JLabel lblJumlahanggotaUbah;
+    private javax.swing.JLabel lblNamaUbah;
+    private javax.swing.JPanel lblNamagrupUbah;
     private javax.swing.JPanel popupPanelutamaUbah;
+    private javax.swing.JTextField txtJumlahanggotaUbah;
+    private javax.swing.JFormattedTextField txtJumlahsetoranUbah;
+    private javax.swing.JTextField txtNamagrupUbah;
     // End of variables declaration//GEN-END:variables
 }

@@ -67,9 +67,9 @@
                       <Group type="103" alignment="1" groupAlignment="0" attributes="0">
                           <Group type="103" alignment="0" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jLabel51" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblMinimaselogoTabbahAnngota" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jLabel52" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblExitTambbahAnggota" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
@@ -82,41 +82,41 @@
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="jTextField7" alignment="1" min="-2" pref="112" max="-2" attributes="0"/>
+                                          <Component id="txtNamaanggota" alignment="1" min="-2" pref="112" max="-2" attributes="0"/>
                                           <Group type="102" alignment="1" attributes="0">
                                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                  <Component id="labelSetting12" alignment="0" max="32767" attributes="0"/>
-                                                  <Component id="labelSetting11" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="lblNamaanggotaUbah" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="lblIdanggotaTabahAnggota" alignment="0" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                              <Component id="jTextField6" min="-2" pref="112" max="-2" attributes="0"/>
+                                              <Component id="txtIdanggota" min="-2" pref="112" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="labelSetting13" alignment="1" min="-2" pref="77" max="-2" attributes="0"/>
-                                          <Component id="labelSetting14" alignment="1" min="-2" pref="77" max="-2" attributes="0"/>
+                                          <Component id="lblAlamatTambahAnggota" alignment="1" min="-2" pref="77" max="-2" attributes="0"/>
+                                          <Component id="lblIkutarisanTambahAnggota" alignment="1" min="-2" pref="77" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jTextField8" alignment="0" min="-2" pref="131" max="-2" attributes="0"/>
+                                          <Component id="txtAlamatTambahAnggota" alignment="0" min="-2" pref="131" max="-2" attributes="0"/>
                                           <Component id="jScrollPane4" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Component id="jScrollPane5" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jPanel16" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnUbahAnggota" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jPanel20" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnHapusAnggota" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jPanel19" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnResetTambahAnngota" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
-                          <Component id="jLabel1" min="-2" pref="65" max="-2" attributes="0"/>
+                          <Component id="lblMulaiTambahAnggita" min="-2" pref="65" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -128,37 +128,37 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel51" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel52" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblMinimaselogoTabbahAnngota" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblExitTambbahAnggota" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                   <Component id="labelSetting10" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="labelSetting11" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
-                      <Component id="jTextField6" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="labelSetting13" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                      <Component id="jTextField8" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="lblIdanggotaTabahAnggota" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="txtIdanggota" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="lblAlamatTambahAnggota" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="txtAlamatTambahAnggota" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jScrollPane4" alignment="1" min="-2" pref="16" max="-2" attributes="0"/>
                       <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                          <Component id="labelSetting12" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
-                          <Component id="jTextField7" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="labelSetting14" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="lblNamaanggotaUbah" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="txtNamaanggota" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="lblIkutarisanTambahAnggota" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                   <Component id="jScrollPane5" min="-2" pref="91" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="jPanel19" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jPanel20" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jPanel16" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnResetTambahAnngota" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnHapusAnggota" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnUbahAnggota" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace pref="23" max="32767" attributes="0"/>
-                  <Component id="jLabel1" min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="lblMulaiTambahAnggita" min="-2" pref="27" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -176,7 +176,7 @@
             <Property name="text" type="java.lang.String" value="Tambah Anggota"/>
           </Properties>
         </Component>
-        <Container class="javax.swing.JPanel" name="jPanel16">
+        <Container class="javax.swing.JPanel" name="btnUbahAnggota">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -213,7 +213,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="jPanel19">
+        <Container class="javax.swing.JPanel" name="btnResetTambahAnngota">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="c0" green="f5" red="ec" type="rgb"/>
@@ -250,7 +250,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="jPanel20">
+        <Container class="javax.swing.JPanel" name="btnHapusAnggota">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -287,7 +287,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JLabel" name="jLabel51">
+        <Component class="javax.swing.JLabel" name="lblMinimaselogoTabbahAnngota">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"/>
@@ -297,10 +297,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel51MouseClicked"/>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblMinimaselogoTabbahAnngotaMouseClicked"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel52">
+        <Component class="javax.swing.JLabel" name="lblExitTambbahAnggota">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/edu/kelompok1/kocokarisan/icon/CLOSE.png"/>
@@ -310,7 +310,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="labelSetting11">
+        <Component class="javax.swing.JLabel" name="lblIdanggotaTabahAnggota">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="10" style="0"/>
@@ -321,7 +321,7 @@
             <Property name="text" type="java.lang.String" value="ID Anggota           :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="labelSetting12">
+        <Component class="javax.swing.JLabel" name="lblNamaanggotaUbah">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="10" style="0"/>
@@ -332,7 +332,7 @@
             <Property name="text" type="java.lang.String" value="Nama Anggota     :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="labelSetting13">
+        <Component class="javax.swing.JLabel" name="lblAlamatTambahAnggota">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="10" style="0"/>
@@ -343,7 +343,7 @@
             <Property name="text" type="java.lang.String" value="Alamat           :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="labelSetting14">
+        <Component class="javax.swing.JLabel" name="lblIkutarisanTambahAnggota">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="10" style="0"/>
@@ -354,7 +354,7 @@
             <Property name="text" type="java.lang.String" value="Ikut Arisan       :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField6">
+        <Component class="javax.swing.JTextField" name="txtIdanggota">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -371,7 +371,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField7">
+        <Component class="javax.swing.JTextField" name="txtNamaanggota">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -388,7 +388,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField8">
+        <Component class="javax.swing.JTextField" name="txtAlamatTambahAnggota">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -412,7 +412,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
-            <Component class="javax.swing.JList" name="jList2">
+            <Component class="javax.swing.JList" name="listIkutarisanTambahAnggota">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -448,7 +448,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
-            <Component class="javax.swing.JTable" name="jTable3">
+            <Component class="javax.swing.JTable" name="tblTambahanggotaTambbahAnggota">
               <Properties>
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                   <Table columnCount="4" rowCount="4">
@@ -462,7 +462,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JLabel" name="jLabel1">
+        <Component class="javax.swing.JLabel" name="lblMulaiTambahAnggita">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="11" style="1"/>

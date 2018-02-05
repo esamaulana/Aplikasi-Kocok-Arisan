@@ -49,7 +49,7 @@
         <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
-        <Container class="javax.swing.JPanel" name="popupPanelUbah">
+        <Container class="javax.swing.JPanel" name="lblNamagrupUbah">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="9" green="10" red="19" type="rgb"/>
@@ -75,29 +75,29 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblNamaUbah" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblJadwalUbah" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblJumlahSetoranUbah" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblJumlahanggotaUbah" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jTextField6" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="txtJumlahanggotaUbah" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                              <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnUbahUbah" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                              <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCancelUbah" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnResetUbah" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="jFormattedTextField3" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jTextField5" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtJumlahsetoranUbah" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtNamagrupUbah" alignment="0" max="32767" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jComboBox5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="comboItem1Ubah" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                                  <Component id="jComboBox6" pref="65" max="32767" attributes="0"/>
+                                  <Component id="comboItem2" pref="65" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -110,39 +110,39 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblNamaUbah" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
-                              <Component id="jTextField5" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="txtNamagrupUbah" min="-2" pref="22" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblJumlahanggotaUbah" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
-                              <Component id="jTextField6" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="txtJumlahanggotaUbah" min="-2" pref="23" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblJumlahSetoranUbah" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
-                              <Component id="jFormattedTextField3" pref="21" max="32767" attributes="0"/>
+                              <Component id="txtJumlahsetoranUbah" pref="21" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jComboBox5" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jComboBox6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblJadwalUbah" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comboItem1Ubah" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comboItem2" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="38" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jPanel5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jPanel8" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jPanel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnUbahUbah" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnCancelUbah" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnResetUbah" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                   </Group>
@@ -150,7 +150,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel11">
+            <Component class="javax.swing.JLabel" name="lblJumlahSetoranUbah">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="11" style="0"/>
@@ -161,7 +161,7 @@
                 <Property name="text" type="java.lang.String" value="Jumlah Setoran"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel12">
+            <Component class="javax.swing.JLabel" name="lblJadwalUbah">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="11" style="0"/>
@@ -172,7 +172,7 @@
                 <Property name="text" type="java.lang.String" value="Jadwal"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel13">
+            <Component class="javax.swing.JLabel" name="lblJumlahanggotaUbah">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="11" style="0"/>
@@ -183,7 +183,7 @@
                 <Property name="text" type="java.lang.String" value="Jumlah Anggota"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel14">
+            <Component class="javax.swing.JLabel" name="lblNamaUbah">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="11" style="0"/>
@@ -194,7 +194,7 @@
                 <Property name="text" type="java.lang.String" value="Nama Grup"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField5">
+            <Component class="javax.swing.JTextField" name="txtNamagrupUbah">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -210,7 +210,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField6">
+            <Component class="javax.swing.JTextField" name="txtJumlahanggotaUbah">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -226,7 +226,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField3">
+            <Component class="javax.swing.JFormattedTextField" name="txtJumlahsetoranUbah">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -242,7 +242,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JComboBox" name="jComboBox5">
+            <Component class="javax.swing.JComboBox" name="comboItem1Ubah">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -260,7 +260,7 @@
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JComboBox" name="jComboBox6">
+            <Component class="javax.swing.JComboBox" name="comboItem2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="5c" green="a2" red="ef" type="rgb"/>
@@ -278,7 +278,7 @@
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
               </AuxValues>
             </Component>
-            <Container class="javax.swing.JPanel" name="jPanel5">
+            <Container class="javax.swing.JPanel" name="btnUbahUbah">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="c0" green="f5" red="ec" type="rgb"/>
@@ -288,7 +288,7 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel5MouseClicked"/>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUbahUbahMouseClicked"/>
               </Events>
 
               <Layout>
@@ -320,7 +320,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="jPanel8">
+            <Container class="javax.swing.JPanel" name="btnCancelUbah">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="c0" green="f5" red="ec" type="rgb"/>
@@ -330,7 +330,7 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel8MouseClicked"/>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnCancelUbahMouseClicked"/>
               </Events>
 
               <Layout>
@@ -363,7 +363,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="jPanel9">
+            <Container class="javax.swing.JPanel" name="btnResetUbah">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="5c" green="a2" red="ef" type="rgb"/>
