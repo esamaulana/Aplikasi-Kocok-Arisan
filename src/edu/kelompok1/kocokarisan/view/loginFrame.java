@@ -5,7 +5,7 @@
  */
 package edu.kelompok1.kocokarisan.view;
 
-import edu.kelompok1.kocokarisan.database.Koneksi;
+import edu.kelompok1.kocokarisan.database.ArisanYukDatabase;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -32,7 +32,7 @@ public final String driver = "com.mysql.jdbc.Driver";
      */
     public loginFrame() {
         initComponents();
-        Koneksi DB = new Koneksi();
+        ArisanYukDatabase DB = new ArisanYukDatabase();
         DB.config();
         con = DB.con;
         stmt = DB.stmt;

@@ -13,8 +13,10 @@ import edu.kelompok1.kocokarisan.service.AdminDao;
 import edu.kelompok1.kocokarisan.service.AnggotaArisanDao;
 import edu.kelompok1.kocokarisan.service.KelompokArisanDao;
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -26,6 +28,8 @@ public class ArisanYukDatabase {
     private static AdminDao adminDao;
     private static AnggotaArisanDao anggotaDao;
     private static KelompokArisanDao kelompokDao;
+    public static Connection con;
+    public static Statement stmt;
 
     public static Connection getConnection() throws SQLException {
         if (connection == null) {
@@ -59,6 +63,16 @@ public class ArisanYukDatabase {
             kelompokDao = new KelompokArisanDaoImpl(getConnection());
         }
         return kelompokDao;
+    }
+    
+    public void config(){
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/arisanyuk", "root", "");
+            stmt = con.createStatement();
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "koneksi gagal "+e.getMessage());
+        }
     }
 
 

@@ -6,7 +6,7 @@
 package edu.kelompok1.kocokarisan.view;
 
 import edu.kelompok1.kocokarisan.controller.AdminController;
-import edu.kelompok1.kocokarisan.database.Koneksi;
+import edu.kelompok1.kocokarisan.database.ArisanYukDatabase;
 import edu.kelompok1.kocokarisan.entity.Admin;
 import edu.kelompok1.kocokarisan.event.AdminListener;
 import edu.kelompok1.kocokarisan.model.AdminModel;
@@ -36,7 +36,7 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
     
     public registerFrame() {
         initComponents();
-        Koneksi DB = new Koneksi();
+        ArisanYukDatabase DB = new ArisanYukDatabase();
         DB.config();
         con = DB.con;
         stmt = DB.stmt;
