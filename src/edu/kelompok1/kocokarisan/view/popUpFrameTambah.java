@@ -29,20 +29,20 @@ public class popUpFrameTambah extends javax.swing.JFrame {
 
         popupPanelutamaTambah = new javax.swing.JPanel();
         popupPanelTambah = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
-        jFormattedTextField2 = new javax.swing.JFormattedTextField();
-        jComboBox3 = new javax.swing.JComboBox<>();
-        jComboBox4 = new javax.swing.JComboBox<>();
-        jPanel4 = new javax.swing.JPanel();
+        lblJumlah = new javax.swing.JLabel();
+        lblJadwal = new javax.swing.JLabel();
+        lblAnggota = new javax.swing.JLabel();
+        lblNamagrup = new javax.swing.JLabel();
+        txtNameGrup = new javax.swing.JTextField();
+        txtJumlahAnggota = new javax.swing.JTextField();
+        txtJumlahSetoran = new javax.swing.JFormattedTextField();
+        combo1 = new javax.swing.JComboBox<>();
+        combo2 = new javax.swing.JComboBox<>();
+        btnBatalFrametmbh = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
-        jPanel6 = new javax.swing.JPanel();
+        btnTambahFrametmbh = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
-        jPanel7 = new javax.swing.JPanel();
+        btnResetFrametmbh = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -54,53 +54,53 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         popupPanelTambah.setBackground(new java.awt.Color(25, 16, 9));
         popupPanelTambah.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(240, 240, 240), 2));
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel6.setText("Jumlah Setoran");
+        lblJumlah.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        lblJumlah.setForeground(new java.awt.Color(239, 162, 92));
+        lblJumlah.setText("Jumlah Setoran");
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel7.setText("Jadwal");
+        lblJadwal.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        lblJadwal.setForeground(new java.awt.Color(239, 162, 92));
+        lblJadwal.setText("Jadwal");
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel8.setText("Jumlah Anggota");
+        lblAnggota.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        lblAnggota.setForeground(new java.awt.Color(239, 162, 92));
+        lblAnggota.setText("Jumlah Anggota");
 
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(239, 162, 92));
-        jLabel9.setText("Nama Grup");
+        lblNamagrup.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        lblNamagrup.setForeground(new java.awt.Color(239, 162, 92));
+        lblNamagrup.setText("Nama Grup");
 
-        jTextField3.setBackground(new java.awt.Color(239, 162, 92));
-        jTextField3.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jTextField3.setForeground(new java.awt.Color(25, 16, 9));
-        jTextField3.setBorder(null);
+        txtNameGrup.setBackground(new java.awt.Color(239, 162, 92));
+        txtNameGrup.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        txtNameGrup.setForeground(new java.awt.Color(25, 16, 9));
+        txtNameGrup.setBorder(null);
 
-        jTextField4.setBackground(new java.awt.Color(239, 162, 92));
-        jTextField4.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jTextField4.setForeground(new java.awt.Color(25, 16, 9));
-        jTextField4.setBorder(null);
+        txtJumlahAnggota.setBackground(new java.awt.Color(239, 162, 92));
+        txtJumlahAnggota.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        txtJumlahAnggota.setForeground(new java.awt.Color(25, 16, 9));
+        txtJumlahAnggota.setBorder(null);
 
-        jFormattedTextField2.setBackground(new java.awt.Color(239, 162, 92));
-        jFormattedTextField2.setBorder(null);
-        jFormattedTextField2.setForeground(new java.awt.Color(25, 16, 9));
+        txtJumlahSetoran.setBackground(new java.awt.Color(239, 162, 92));
+        txtJumlahSetoran.setBorder(null);
+        txtJumlahSetoran.setForeground(new java.awt.Color(25, 16, 9));
         try {
-            jFormattedTextField2.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("Rp. ###,###")));
+            txtJumlahSetoran.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("Rp. ###,###")));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
 
-        jComboBox3.setBackground(new java.awt.Color(239, 162, 92));
-        jComboBox3.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        combo1.setBackground(new java.awt.Color(239, 162, 92));
+        combo1.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        combo1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jComboBox4.setBackground(new java.awt.Color(239, 162, 92));
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        combo2.setBackground(new java.awt.Color(239, 162, 92));
+        combo2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jPanel4.setBackground(new java.awt.Color(236, 245, 192));
-        jPanel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel4.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnBatalFrametmbh.setBackground(new java.awt.Color(236, 245, 192));
+        btnBatalFrametmbh.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnBatalFrametmbh.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel4MouseClicked(evt);
+                btnBatalFrametmbhMouseClicked(evt);
             }
         });
 
@@ -108,25 +108,25 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(25, 16, 9));
         jLabel10.setText("BATAL");
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        javax.swing.GroupLayout btnBatalFrametmbhLayout = new javax.swing.GroupLayout(btnBatalFrametmbh);
+        btnBatalFrametmbh.setLayout(btnBatalFrametmbhLayout);
+        btnBatalFrametmbhLayout.setHorizontalGroup(
+            btnBatalFrametmbhLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btnBatalFrametmbhLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel10)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        btnBatalFrametmbhLayout.setVerticalGroup(
+            btnBatalFrametmbhLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
         );
 
-        jPanel6.setBackground(new java.awt.Color(236, 245, 192));
-        jPanel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel6.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnTambahFrametmbh.setBackground(new java.awt.Color(236, 245, 192));
+        btnTambahFrametmbh.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTambahFrametmbh.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel6MouseClicked(evt);
+                btnTambahFrametmbhMouseClicked(evt);
             }
         });
 
@@ -134,39 +134,39 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         jLabel16.setForeground(new java.awt.Color(25, 16, 9));
         jLabel16.setText("TAMBAH");
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        javax.swing.GroupLayout btnTambahFrametmbhLayout = new javax.swing.GroupLayout(btnTambahFrametmbh);
+        btnTambahFrametmbh.setLayout(btnTambahFrametmbhLayout);
+        btnTambahFrametmbhLayout.setHorizontalGroup(
+            btnTambahFrametmbhLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btnTambahFrametmbhLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel16)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        btnTambahFrametmbhLayout.setVerticalGroup(
+            btnTambahFrametmbhLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
         );
 
-        jPanel7.setBackground(new java.awt.Color(239, 162, 92));
-        jPanel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnResetFrametmbh.setBackground(new java.awt.Color(239, 162, 92));
+        btnResetFrametmbh.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel17.setBackground(new java.awt.Color(239, 162, 92));
         jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(25, 16, 9));
         jLabel17.setText("RESET");
 
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
+        javax.swing.GroupLayout btnResetFrametmbhLayout = new javax.swing.GroupLayout(btnResetFrametmbh);
+        btnResetFrametmbh.setLayout(btnResetFrametmbhLayout);
+        btnResetFrametmbhLayout.setHorizontalGroup(
+            btnResetFrametmbhLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btnResetFrametmbhLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        btnResetFrametmbhLayout.setVerticalGroup(
+            btnResetFrametmbhLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
         );
 
@@ -177,27 +177,27 @@ public class popUpFrameTambah extends javax.swing.JFrame {
             .addGroup(popupPanelTambahLayout.createSequentialGroup()
                 .addGap(76, 76, 76)
                 .addGroup(popupPanelTambahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel9)
-                    .addComponent(jLabel7)
-                    .addComponent(jLabel6)
-                    .addComponent(jLabel8))
+                    .addComponent(lblNamagrup)
+                    .addComponent(lblJadwal)
+                    .addComponent(lblJumlah)
+                    .addComponent(lblAnggota))
                 .addGap(63, 63, 63)
                 .addGroup(popupPanelTambahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtJumlahAnggota, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(popupPanelTambahLayout.createSequentialGroup()
-                        .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(combo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(22, 22, 22)
-                        .addComponent(jComboBox4, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jTextField3, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE)
-                    .addComponent(jFormattedTextField2))
+                        .addComponent(combo2, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(txtNameGrup, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE)
+                    .addComponent(txtJumlahSetoran))
                 .addContainerGap(135, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, popupPanelTambahLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnTambahFrametmbh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnBatalFrametmbh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnResetFrametmbh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26))
         );
         popupPanelTambahLayout.setVerticalGroup(
@@ -205,38 +205,38 @@ public class popUpFrameTambah extends javax.swing.JFrame {
             .addGroup(popupPanelTambahLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
                 .addGroup(popupPanelTambahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel9)
+                    .addComponent(lblNamagrup)
                     .addGroup(popupPanelTambahLayout.createSequentialGroup()
                         .addGap(1, 1, 1)
-                        .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txtNameGrup, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(popupPanelTambahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel8)
+                    .addComponent(lblAnggota)
                     .addGroup(popupPanelTambahLayout.createSequentialGroup()
                         .addGap(1, 1, 1)
-                        .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txtJumlahAnggota, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(popupPanelTambahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(popupPanelTambahLayout.createSequentialGroup()
-                        .addComponent(jLabel6)
+                        .addComponent(lblJumlah)
                         .addGap(18, 18, 18))
                     .addGroup(popupPanelTambahLayout.createSequentialGroup()
                         .addGap(1, 1, 1)
-                        .addComponent(jFormattedTextField2)
+                        .addComponent(txtJumlahSetoran)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                 .addGroup(popupPanelTambahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(popupPanelTambahLayout.createSequentialGroup()
                         .addGroup(popupPanelTambahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel7)
-                            .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(lblJadwal)
+                            .addComponent(combo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(combo2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnTambahFrametmbh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, popupPanelTambahLayout.createSequentialGroup()
                         .addGap(59, 59, 59)
                         .addGroup(popupPanelTambahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(btnBatalFrametmbh, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnResetFrametmbh, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(21, 21, 21))
         );
 
@@ -263,16 +263,16 @@ public class popUpFrameTambah extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jPanel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel4MouseClicked
+    private void btnBatalFrametmbhMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBatalFrametmbhMouseClicked
         // TODO add your handling code here:
         dispose();
-    }//GEN-LAST:event_jPanel4MouseClicked
+    }//GEN-LAST:event_btnBatalFrametmbhMouseClicked
 
-    private void jPanel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel6MouseClicked
+    private void btnTambahFrametmbhMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTambahFrametmbhMouseClicked
         // TODO add your handling code here:
         tambahFrame n = new tambahFrame();
                 n.setVisible(true);
-    }//GEN-LAST:event_jPanel6MouseClicked
+    }//GEN-LAST:event_btnTambahFrametmbhMouseClicked
 
     /**
      * @param args the command line arguments
@@ -311,22 +311,22 @@ public class popUpFrameTambah extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JFormattedTextField jFormattedTextField2;
+    private javax.swing.JPanel btnBatalFrametmbh;
+    private javax.swing.JPanel btnResetFrametmbh;
+    private javax.swing.JPanel btnTambahFrametmbh;
+    private javax.swing.JComboBox<String> combo1;
+    private javax.swing.JComboBox<String> combo2;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
+    private javax.swing.JLabel lblAnggota;
+    private javax.swing.JLabel lblJadwal;
+    private javax.swing.JLabel lblJumlah;
+    private javax.swing.JLabel lblNamagrup;
     private javax.swing.JPanel popupPanelTambah;
     private javax.swing.JPanel popupPanelutamaTambah;
+    private javax.swing.JTextField txtJumlahAnggota;
+    private javax.swing.JFormattedTextField txtJumlahSetoran;
+    private javax.swing.JTextField txtNameGrup;
     // End of variables declaration//GEN-END:variables
 }

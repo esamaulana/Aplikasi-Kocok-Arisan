@@ -407,9 +407,9 @@ public final String url = "jdbc:mysql://localhost:3306/arisanyuk";
         // TODO add your handling code here:
         controller.insertAdmin(this);
 
-        menuFrame n = new menuFrame();
+        /*menuFrame n = new menuFrame();
         n.setVisible(true);
-        dispose();
+        dispose();*/
 
 
     }//GEN-LAST:event_btnRegisterMouseClicked

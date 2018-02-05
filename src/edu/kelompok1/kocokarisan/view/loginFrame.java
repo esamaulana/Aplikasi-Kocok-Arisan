@@ -78,8 +78,8 @@ public final String driver = "com.mysql.jdbc.Driver";
         lblDaftar = new javax.swing.JLabel();
         lblLogoUsername = new javax.swing.JLabel();
         lblLogoPassword = new javax.swing.JLabel();
-        lblMinimize = new javax.swing.JLabel();
-        lblClose = new javax.swing.JLabel();
+        lblMinimizeLogin = new javax.swing.JLabel();
+        lblCloseLogin = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -175,25 +175,25 @@ public final String driver = "com.mysql.jdbc.Driver";
         lblLogoPassword.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/PASSWORD.png"))); // NOI18N
         panelLogin.add(lblLogoPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 290, -1, -1));
 
-        lblMinimize.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
-        lblMinimize.setText("jLabel6");
-        lblMinimize.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        lblMinimize.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblMinimizeLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/MINIMIZE.png"))); // NOI18N
+        lblMinimizeLogin.setText("jLabel6");
+        lblMinimizeLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblMinimizeLogin.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblMinimizeMouseClicked(evt);
+                lblMinimizeLoginMouseClicked(evt);
             }
         });
-        panelLogin.add(lblMinimize, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 20, 20));
+        panelLogin.add(lblMinimizeLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 20, 20));
 
-        lblClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
-        lblClose.setText("jLabel6");
-        lblClose.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        lblClose.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblCloseLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/kelompok1/kocokarisan/icon/CLOSE.png"))); // NOI18N
+        lblCloseLogin.setText("jLabel6");
+        lblCloseLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblCloseLogin.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lblCloseMouseClicked(evt);
+                lblCloseLoginMouseClicked(evt);
             }
         });
-        panelLogin.add(lblClose, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 20, 20));
+        panelLogin.add(lblCloseLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 20, 20));
 
         jPanel1.add(panelLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 470));
 
@@ -258,16 +258,16 @@ public final String driver = "com.mysql.jdbc.Driver";
         dispose();
     }//GEN-LAST:event_lblDaftarMouseClicked
 
-    private void lblCloseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblCloseMouseClicked
+    private void lblCloseLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblCloseLoginMouseClicked
         // TODO add your handling code here:
         dialogFrame n  = new dialogFrame();
         n.setVisible(true);
-    }//GEN-LAST:event_lblCloseMouseClicked
+    }//GEN-LAST:event_lblCloseLoginMouseClicked
 
-    private void lblMinimizeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblMinimizeMouseClicked
+    private void lblMinimizeLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblMinimizeLoginMouseClicked
         // TODO add your handling code here:
         this.setState(loginFrame.ICONIFIED);
-    }//GEN-LAST:event_lblMinimizeMouseClicked
+    }//GEN-LAST:event_lblMinimizeLoginMouseClicked
 
     /**
      * @param args the command line arguments
@@ -310,11 +310,11 @@ public final String driver = "com.mysql.jdbc.Driver";
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator3;
-    private javax.swing.JLabel lblClose;
+    private javax.swing.JLabel lblCloseLogin;
     private javax.swing.JLabel lblDaftar;
     private javax.swing.JLabel lblLogoPassword;
     private javax.swing.JLabel lblLogoUsername;
-    private javax.swing.JLabel lblMinimize;
+    private javax.swing.JLabel lblMinimizeLogin;
     private javax.swing.JLabel lblPassword;
     private javax.swing.JLabel lblUsername;
     private javax.swing.JLabel logo;
